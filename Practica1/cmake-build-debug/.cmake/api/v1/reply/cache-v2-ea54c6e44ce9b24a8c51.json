@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/Users/sohai/OneDrive - Universidad Rey Juan Carlos/Documentos/Universidad/3\u00baGrado/2\u00baCuatri/C_Altas_Prestaciones/Practica1_Cap/cmake-build-debug"
+			"value" : "c:/Users/sohai/OneDrive - Universidad Rey Juan Carlos/Documentos/Universidad/3\u00baGrado/2\u00baCuatri/C_Altas_Prestaciones/Practicas_CAP/Practica1/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -431,7 +431,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/sohai/OneDrive - Universidad Rey Juan Carlos/Documentos/Universidad/3\u00baGrado/2\u00baCuatri/C_Altas_Prestaciones/Practica1_Cap/cmake-build-debug/CMakeFiles/pkgRedirects"
+			"value" : "C:/Users/sohai/OneDrive - Universidad Rey Juan Carlos/Documentos/Universidad/3\u00baGrado/2\u00baCuatri/C_Altas_Prestaciones/Practicas_CAP/Practica1/cmake-build-debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -503,7 +503,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Users/sohai/OneDrive - Universidad Rey Juan Carlos/Documentos/Universidad/3\u00baGrado/2\u00baCuatri/C_Altas_Prestaciones/Practica1_Cap"
+			"value" : "C:/Users/sohai/OneDrive - Universidad Rey Juan Carlos/Documentos/Universidad/3\u00baGrado/2\u00baCuatri/C_Altas_Prestaciones/Practicas_CAP/Practica1"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1423,7 +1423,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/sohai/OneDrive - Universidad Rey Juan Carlos/Documentos/Universidad/3\u00baGrado/2\u00baCuatri/C_Altas_Prestaciones/Practica1_Cap/cmake-build-debug"
+			"value" : "C:/Users/sohai/OneDrive - Universidad Rey Juan Carlos/Documentos/Universidad/3\u00baGrado/2\u00baCuatri/C_Altas_Prestaciones/Practicas_CAP/Practica1/cmake-build-debug"
 		},
 		{
 			"name" : "Practica1_Cap_IS_TOP_LEVEL",
@@ -1447,7 +1447,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/sohai/OneDrive - Universidad Rey Juan Carlos/Documentos/Universidad/3\u00baGrado/2\u00baCuatri/C_Altas_Prestaciones/Practica1_Cap"
+			"value" : "C:/Users/sohai/OneDrive - Universidad Rey Juan Carlos/Documentos/Universidad/3\u00baGrado/2\u00baCuatri/C_Altas_Prestaciones/Practicas_CAP/Practica1"
 		},
 		{
 			"name" : "_CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED",

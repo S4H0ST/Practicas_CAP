@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/sohai/OneDrive - Universidad Rey Juan Carlos/Documentos/Universidad/3ºGrado/2ºCuatri/C_Altas_Prestaciones/Practica1_Cap
+# Install script for directory: C:/Users/sohai/OneDrive - Universidad Rey Juan Carlos/Documentos/Universidad/3ºGrado/2ºCuatri/C_Altas_Prestaciones/Practicas_CAP/Practica1
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/sohai/OneDrive - Universidad Rey Juan Carlos/Documentos/Universidad/3ºGrado/2ºCuatri/C_Altas_Prestaciones/Practica1_Cap/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/sohai/OneDrive - Universidad Rey Juan Carlos/Documentos/Universidad/3ºGrado/2ºCuatri/C_Altas_Prestaciones/Practicas_CAP/Practica1/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
