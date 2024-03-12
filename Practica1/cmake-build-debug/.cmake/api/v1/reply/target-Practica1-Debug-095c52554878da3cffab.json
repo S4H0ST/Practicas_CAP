@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "Practica1_Cap.exe"
+			"path" : "Practica1.exe"
 		},
 		{
-			"path" : "Practica1_Cap.pdb"
+			"path" : "Practica1.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -78,7 +78,7 @@
 			]
 		}
 	],
-	"id" : "Practica1_Cap::@6890427a1f51a3e7e1df",
+	"id" : "Practica1::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -103,8 +103,8 @@
 		],
 		"language" : "C"
 	},
-	"name" : "Practica1_Cap",
-	"nameOnDisk" : "Practica1_Cap.exe",
+	"name" : "Practica1",
+	"nameOnDisk" : "Practica1.exe",
 	"paths" : 
 	{
 		"build" : ".",

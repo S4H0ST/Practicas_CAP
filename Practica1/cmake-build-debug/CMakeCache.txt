@@ -128,7 +128,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=Practica1_Cap
+CMAKE_PROJECT_NAME:STATIC=Practica1
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=C:/Program Files/JetBrains/CLion 2023.3.3/bin/mingw/bin/ranlib.exe
@@ -264,6 +264,9 @@ PKG_CONFIG_ARGN:STRING=
 PKG_CONFIG_EXECUTABLE:FILEPATH=PKG_CONFIG_EXECUTABLE-NOTFOUND
 
 //Value Computed by CMake
+Practica1_BINARY_DIR:STATIC=C:/Users/sohai/OneDrive - Universidad Rey Juan Carlos/Documentos/Universidad/3ºGrado/2ºCuatri/C_Altas_Prestaciones/Practicas_CAP/Practica1/cmake-build-debug
+
+//Value Computed by CMake
 Practica1_Cap_BINARY_DIR:STATIC=C:/Users/sohai/OneDrive - Universidad Rey Juan Carlos/Documentos/Universidad/3ºGrado/2ºCuatri/C_Altas_Prestaciones/Practicas_CAP/Practica1/cmake-build-debug
 
 //Value Computed by CMake
@@ -271,6 +274,12 @@ Practica1_Cap_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
 Practica1_Cap_SOURCE_DIR:STATIC=C:/Users/sohai/OneDrive - Universidad Rey Juan Carlos/Documentos/Universidad/3ºGrado/2ºCuatri/C_Altas_Prestaciones/Practicas_CAP/Practica1
+
+//Value Computed by CMake
+Practica1_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+Practica1_SOURCE_DIR:STATIC=C:/Users/sohai/OneDrive - Universidad Rey Juan Carlos/Documentos/Universidad/3ºGrado/2ºCuatri/C_Altas_Prestaciones/Practicas_CAP/Practica1
 
 
 ########################
@@ -417,6 +426,8 @@ CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
 FIND_PACKAGE_MESSAGE_DETAILS_MPI:INTERNAL=[TRUE][c ][v2.0()]
 //Details about finding MPI_C
 FIND_PACKAGE_MESSAGE_DETAILS_MPI_C:INTERNAL=[C:/Program Files (x86)/Microsoft SDKs/MPI/Lib/x64/msmpi.lib][msmpi][C:/Program Files (x86)/Microsoft SDKs/MPI/Include][TRUE][v2.0()]
+//ADVANCED property for variable: MPIEXEC_EXECUTABLE
+MPIEXEC_EXECUTABLE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: MPIEXEC_MAX_NUMPROCS
 MPIEXEC_MAX_NUMPROCS-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: MPIEXEC_NUMPROC_FLAG

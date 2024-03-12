@@ -731,7 +731,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "Practica1_Cap"
+			"value" : "Practica1"
 		},
 		{
 			"name" : "CMAKE_RANLIB",
@@ -1154,6 +1154,10 @@
 			"properties" : 
 			[
 				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
 					"name" : "HELPSTRING",
 					"value" : "Executable for running MPI programs."
 				}
@@ -1414,6 +1418,18 @@
 			"value" : "PKG_CONFIG_EXECUTABLE-NOTFOUND"
 		},
 		{
+			"name" : "Practica1_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "C:/Users/sohai/OneDrive - Universidad Rey Juan Carlos/Documentos/Universidad/3\u00baGrado/2\u00baCuatri/C_Altas_Prestaciones/Practicas_CAP/Practica1/cmake-build-debug"
+		},
+		{
 			"name" : "Practica1_Cap_BINARY_DIR",
 			"properties" : 
 			[
@@ -1439,6 +1455,30 @@
 		},
 		{
 			"name" : "Practica1_Cap_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "C:/Users/sohai/OneDrive - Universidad Rey Juan Carlos/Documentos/Universidad/3\u00baGrado/2\u00baCuatri/C_Altas_Prestaciones/Practicas_CAP/Practica1"
+		},
+		{
+			"name" : "Practica1_IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "ON"
+		},
+		{
+			"name" : "Practica1_SOURCE_DIR",
 			"properties" : 
 			[
 				{
