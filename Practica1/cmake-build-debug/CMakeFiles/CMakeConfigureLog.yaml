@@ -273,3 +273,75 @@ events:
       
       
 ...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/cygdrive/c/Users/crist/AppData/Local/JetBrains/CLion2023.3/cygwin_cmake/share/cmake-3.27.8/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/cygdrive/c/Users/crist/AppData/Local/JetBrains/CLion2023.3/cygwin_cmake/share/cmake-3.27.8/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/cygdrive/c/Users/crist/AppData/Local/JetBrains/CLion2023.3/cygwin_cmake/share/cmake-3.27.8/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:7 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/cygdrive/c/Users/crist/CLionProjects/CAP/Practicas_CAP/Practica1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-8D4aNn"
+      binary: "/cygdrive/c/Users/crist/CLionProjects/CAP/Practicas_CAP/Practica1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-8D4aNn"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: "-Wl,--enable-auto-import"
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/cygdrive/c/Users/crist/CLionProjects/CAP/Practicas_CAP/Practica1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-8D4aNn'
+        
+        Run Build Command(s): "/cygdrive/c/Program Files/JetBrains/CLion 2023.3.4/bin/ninja/cygwin/x64/ninja.exe" -v cmTC_e6ad5
+        [1/2] /usr/bin/cc   -std=gnu11 -o CMakeFiles/cmTC_e6ad5.dir/test_mpi.c.o -c /cygdrive/c/Users/crist/CLionProjects/CAP/Practicas_CAP/Practica1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-8D4aNn/test_mpi.c
+        [2/2] : && /usr/bin/cc  -Wl,--enable-auto-import CMakeFiles/cmTC_e6ad5.dir/test_mpi.c.o -o cmTC_e6ad5.exe -Wl,--out-implib,libcmTC_e6ad5.dll.a -Wl,--major-image-version,0,--minor-image-version,0   && :
+        \x1b[31mFAILED: \x1b[0mcmTC_e6ad5.exe 
+        : && /usr/bin/cc  -Wl,--enable-auto-import CMakeFiles/cmTC_e6ad5.dir/test_mpi.c.o -o cmTC_e6ad5.exe -Wl,--out-implib,libcmTC_e6ad5.dll.a -Wl,--major-image-version,0,--minor-image-version,0   && :
+        /usr/lib/gcc/x86_64-pc-cygwin/11/../../../../x86_64-pc-cygwin/bin/ld: CMakeFiles/cmTC_e6ad5.dir/test_mpi.c.o:test_mpi.c:(.text+0x2f): undefined reference to `MPI_Init'
+        /usr/lib/gcc/x86_64-pc-cygwin/11/../../../../x86_64-pc-cygwin/bin/ld: CMakeFiles/cmTC_e6ad5.dir/test_mpi.c.o:test_mpi.c:(.text+0x34): undefined reference to `MPI_Finalize'
+        collect2: error: ld returned 1 exit status
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/cygdrive/c/Users/crist/AppData/Local/JetBrains/CLion2023.3/cygwin_cmake/share/cmake-3.27.8/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/cygdrive/c/Users/crist/AppData/Local/JetBrains/CLion2023.3/cygwin_cmake/share/cmake-3.27.8/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/cygdrive/c/Users/crist/AppData/Local/JetBrains/CLion2023.3/cygwin_cmake/share/cmake-3.27.8/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:7 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/cygdrive/c/Users/crist/CLionProjects/CAP/Practicas_CAP/Practica1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-bnUqBx"
+      binary: "/cygdrive/c/Users/crist/CLionProjects/CAP/Practicas_CAP/Practica1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-bnUqBx"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: "-Wl,--enable-auto-import"
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/cygdrive/c/Users/crist/CLionProjects/CAP/Practicas_CAP/Practica1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-bnUqBx'
+        
+        Run Build Command(s): "/cygdrive/c/Program Files/JetBrains/CLion 2023.3.4/bin/ninja/cygwin/x64/ninja.exe" -v cmTC_39a09
+        [1/2] /usr/bin/cc   -std=gnu11 -fdiagnostics-color=always -o CMakeFiles/cmTC_39a09.dir/test_mpi.c.o -c /cygdrive/c/Users/crist/CLionProjects/CAP/Practicas_CAP/Practica1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-bnUqBx/test_mpi.c
+        [2/2] : && /usr/bin/cc  -Wl,--enable-auto-import CMakeFiles/cmTC_39a09.dir/test_mpi.c.o -o cmTC_39a09.exe -Wl,--out-implib,libcmTC_39a09.dll.a -Wl,--major-image-version,0,--minor-image-version,0   && :
+        FAILED: cmTC_39a09.exe 
+        : && /usr/bin/cc  -Wl,--enable-auto-import CMakeFiles/cmTC_39a09.dir/test_mpi.c.o -o cmTC_39a09.exe -Wl,--out-implib,libcmTC_39a09.dll.a -Wl,--major-image-version,0,--minor-image-version,0   && :
+        /usr/lib/gcc/x86_64-pc-cygwin/11/../../../../x86_64-pc-cygwin/bin/ld: CMakeFiles/cmTC_39a09.dir/test_mpi.c.o:test_mpi.c:(.text+0x2f): undefined reference to `MPI_Init'
+        /usr/lib/gcc/x86_64-pc-cygwin/11/../../../../x86_64-pc-cygwin/bin/ld: CMakeFiles/cmTC_39a09.dir/test_mpi.c.o:test_mpi.c:(.text+0x34): undefined reference to `MPI_Finalize'
+        collect2: error: ld returned 1 exit status
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+...
