@@ -1,5 +1,3 @@
-
-
 #include <stdio.h>
 #include <mpi.h>
 #include <malloc.h>
@@ -255,8 +253,6 @@ int main(int argc, char** argv) {
             printf("Salida línea %d", i);
 
         }
-
-
 
         enigma();
     } else {
