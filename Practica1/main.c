@@ -204,6 +204,7 @@ void enigma() {
     printf("Tiempo de ejecucion: %f segundos\n", cpu_time_used); // Se imprime el tiempo transcurrido
 }
 
+//Comando para ejecutar el programa
 //cd cmake-build-debug
 //mpiexec -n 4 .\main.exe
 //mpiexec -help2
