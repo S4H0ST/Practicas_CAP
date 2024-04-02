@@ -434,43 +434,13 @@
 			"isCMake" : true,
 			"isExternal" : true,
 			"path" : "C:/Program Files/JetBrains/CLion 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU-C-ABI.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "C:/Program Files/JetBrains/CLion 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/FindMPI.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "C:/Program Files/JetBrains/CLion 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "C:/Program Files/JetBrains/CLion 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/FindPackageMessage.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "C:/Program Files/JetBrains/CLion 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/FindPkgConfig.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "C:/Program Files/JetBrains/CLion 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "C:/Program Files/JetBrains/CLion 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/FindPackageMessage.cmake"
 		}
 	],
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-		"build" : "C:/Users/sohai/OneDrive - Universidad Rey Juan Carlos/Documentos/Universidad/3\u00baGrado/2\u00baCuatri/C_Altas_Prestaciones/Practicas_CAP/Practica1/cmake-build-debug",
-		"source" : "C:/Users/sohai/OneDrive - Universidad Rey Juan Carlos/Documentos/Universidad/3\u00baGrado/2\u00baCuatri/C_Altas_Prestaciones/Practicas_CAP/Practica1"
+		"build" : "C:/Users/sohai/OneDrive - Universidad Rey Juan Carlos/Documentos/Universidad/3\u00baGrado/2\u00baCuatri/C_Altas_Prestaciones/Practicas_CAP/Pruebas/enigma/cmake-build-debug",
+		"source" : "C:/Users/sohai/OneDrive - Universidad Rey Juan Carlos/Documentos/Universidad/3\u00baGrado/2\u00baCuatri/C_Altas_Prestaciones/Practicas_CAP/Pruebas/enigma"
 	},
 	"version" : 
 	{
