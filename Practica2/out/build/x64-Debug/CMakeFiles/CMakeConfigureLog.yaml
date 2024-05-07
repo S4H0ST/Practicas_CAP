@@ -1,0 +1,452 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineSystem.cmake:233 (message)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      The system is: Windows - 10.0.22631 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.39.33519/bin/Hostx64/x64/cl.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Compilador de optimización de C/C++ de Microsoft (R) versión 19.39.33523 para x64
+      (C) Microsoft Corporation. Todos los derechos reservados.
+      
+      CMakeCCompilerId.c
+      Microsoft (R) Incremental Linker Version 14.39.33523.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      /out:CMakeCCompilerId.exe 
+      CMakeCCompilerId.obj 
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.obj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/Users/sohai/OneDrive - Universidad Rey Juan Carlos/Documentos/Practicas_CAP/Practica2/out/build/x64-Debug/CMakeFiles/3.28.0-msvc1/CompilerIdC/CMakeCCompilerId.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:1182 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:247 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      Detecting C compiler /showIncludes prefix:
+        main.c
+        Nota: inclusión del archivo: C:\\Users\\sohai\\OneDrive - Universidad Rey Juan Carlos\\Documentos\\Practicas_CAP\\Practica2\\out\\build\\x64-Debug\\CMakeFiles\\ShowIncludes\\foo.h
+        
+      Found prefix "Nota: inclusión del archivo: "
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.39.33519/bin/Hostx64/x64/cl.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Compilador de optimización de C/C++ de Microsoft (R) versión 19.39.33523 para x64
+      (C) Microsoft Corporation. Todos los derechos reservados.
+      
+      CMakeCXXCompilerId.cpp
+      Microsoft (R) Incremental Linker Version 14.39.33523.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      /out:CMakeCXXCompilerId.exe 
+      CMakeCXXCompilerId.obj 
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.obj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/sohai/OneDrive - Universidad Rey Juan Carlos/Documentos/Practicas_CAP/Practica2/out/build/x64-Debug/CMakeFiles/3.28.0-msvc1/CompilerIdCXX/CMakeCXXCompilerId.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:1182 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:247 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      Detecting CXX compiler /showIncludes prefix:
+        main.c
+        Nota: inclusión del archivo: C:\\Users\\sohai\\OneDrive - Universidad Rey Juan Carlos\\Documentos\\Practicas_CAP\\Practica2\\out\\build\\x64-Debug\\CMakeFiles\\ShowIncludes\\foo.h
+        
+      Found prefix "Nota: inclusión del archivo: "
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:6 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/sohai/OneDrive - Universidad Rey Juan Carlos/Documentos/Practicas_CAP/Practica2/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-hoq4ku"
+      binary: "C:/Users/sohai/OneDrive - Universidad Rey Juan Carlos/Documentos/Practicas_CAP/Practica2/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-hoq4ku"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/sohai/OneDrive - Universidad Rey Juan Carlos/Documentos/Practicas_CAP/Practica2/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-hoq4ku'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_4d019
+        [1/2] C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1439~1.335\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_4d019.dir\\CMakeCCompilerABI.c.obj /FdCMakeFiles\\cmTC_4d019.dir\\ /FS -c "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c"
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_4d019.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1439~1.335\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_4d019.dir\\CMakeCCompilerABI.c.obj  /out:cmTC_4d019.exe /implib:cmTC_4d019.lib /pdb:cmTC_4d019.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:6 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/sohai/OneDrive - Universidad Rey Juan Carlos/Documentos/Practicas_CAP/Practica2/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-h2i7wq"
+      binary: "C:/Users/sohai/OneDrive - Universidad Rey Juan Carlos/Documentos/Practicas_CAP/Practica2/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-h2i7wq"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/sohai/OneDrive - Universidad Rey Juan Carlos/Documentos/Practicas_CAP/Practica2/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-h2i7wq'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_4d6e4
+        [1/2] C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1439~1.335\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /W3 /GR /EHsc  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_4d6e4.dir\\CMakeCXXCompilerABI.cpp.obj /FdCMakeFiles\\cmTC_4d6e4.dir\\ /FS -c "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp"
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_4d6e4.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1439~1.335\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_4d6e4.dir\\CMakeCXXCompilerABI.cpp.obj  /out:cmTC_4d6e4.exe /implib:cmTC_4d6e4.lib /pdb:cmTC_4d6e4.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:18 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "C:/Users/sohai/OneDrive - Universidad Rey Juan Carlos/Documentos/Practicas_CAP/Practica2/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-gkfsus"
+      binary: "C:/Users/sohai/OneDrive - Universidad Rey Juan Carlos/Documentos/Practicas_CAP/Practica2/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-gkfsus"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/sohai/OneDrive - Universidad Rey Juan Carlos/Documentos/Practicas_CAP/Practica2/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-gkfsus'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_2b65e
+        [1/2] C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1439~1.335\\bin\\Hostx64\\x64\\cl.exe  /nologo  -external:I"C:\\Program Files (x86)\\Microsoft SDKs\\MPI\\Include" -external:W0 /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_2b65e.dir\\test_mpi.c.obj /FdCMakeFiles\\cmTC_2b65e.dir\\ /FS -c "C:\\Users\\sohai\\OneDrive - Universidad Rey Juan Carlos\\Documentos\\Practicas_CAP\\Practica2\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-gkfsus\\test_mpi.c"
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_2b65e.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1439~1.335\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_2b65e.dir\\test_mpi.c.obj  /out:cmTC_2b65e.exe /implib:cmTC_2b65e.lib /pdb:cmTC_2b65e.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  "C:\\Program Files (x86)\\Microsoft SDKs\\MPI\\Lib\\x64\\msmpi.lib"  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:18 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode normal"
+    directories:
+      source: "C:/Users/sohai/OneDrive - Universidad Rey Juan Carlos/Documentos/Practicas_CAP/Practica2/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-ca6s73"
+      binary: "C:/Users/sohai/OneDrive - Universidad Rey Juan Carlos/Documentos/Practicas_CAP/Practica2/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-ca6s73"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/sohai/OneDrive - Universidad Rey Juan Carlos/Documentos/Practicas_CAP/Practica2/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-ca6s73'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_cc561
+        [1/2] C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1439~1.335\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP  -external:I"C:\\Program Files (x86)\\Microsoft SDKs\\MPI\\Include" -external:W0 /DWIN32 /D_WINDOWS /W3 /GR /EHsc  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_cc561.dir\\test_mpi.cpp.obj /FdCMakeFiles\\cmTC_cc561.dir\\ /FS -c "C:\\Users\\sohai\\OneDrive - Universidad Rey Juan Carlos\\Documentos\\Practicas_CAP\\Practica2\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-ca6s73\\test_mpi.cpp"
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_cc561.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1439~1.335\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_cc561.dir\\test_mpi.cpp.obj  /out:cmTC_cc561.exe /implib:cmTC_cc561.lib /pdb:cmTC_cc561.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  "C:\\Program Files (x86)\\Microsoft SDKs\\MPI\\Lib\\x64\\msmpi.lib"  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/FindMPI.cmake:1672 (_MPI_try_staged_settings)"
+      - "CMakeLists.txt:18 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode MPICXX"
+    directories:
+      source: "C:/Users/sohai/OneDrive - Universidad Rey Juan Carlos/Documentos/Practicas_CAP/Practica2/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-ms2n9f"
+      binary: "C:/Users/sohai/OneDrive - Universidad Rey Juan Carlos/Documentos/Practicas_CAP/Practica2/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-ms2n9f"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_MPICXX"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/sohai/OneDrive - Universidad Rey Juan Carlos/Documentos/Practicas_CAP/Practica2/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-ms2n9f'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_b4054
+        [1/2] C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1439~1.335\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP  -external:I"C:\\Program Files (x86)\\Microsoft SDKs\\MPI\\Include" -external:W0 /DWIN32 /D_WINDOWS /W3 /GR /EHsc  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_b4054.dir\\test_mpi.cpp.obj /FdCMakeFiles\\cmTC_b4054.dir\\ /FS -c "C:\\Users\\sohai\\OneDrive - Universidad Rey Juan Carlos\\Documentos\\Practicas_CAP\\Practica2\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-ms2n9f\\test_mpi.cpp"
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_b4054.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1439~1.335\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_b4054.dir\\test_mpi.cpp.obj  /out:cmTC_b4054.exe /implib:cmTC_b4054.lib /pdb:cmTC_b4054.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  "C:\\Program Files (x86)\\Microsoft SDKs\\MPI\\Lib\\x64\\msmpi.lib"  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+
+---
+events:
+ompile-v1"
+  -
+acktrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/FindMPI.cmake:1278 (try_compile)"
+    kind: "try_compile-v1"
+crosoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:19 (find_package)"
+    backtrace:
+ "The MPI test test_mpi for C in mode normal"
+    directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/FindMPI.cmake:1278 (try_compile)"
+      source: "C:/Users/sohai/OneDrive - Universidad Rey Juan Carlos/Documentos/Practicas_CAP/Practica2/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-k2gdg7"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      binary: "C:/Users/sohai/OneDrive - Universidad Rey Juan Carlos/Documentos/Practicas_CAP/Practica2/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-k2gdg7"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+    cmakeVariables:
+      - "CMakeLists.txt:19 (find_package)"
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+    description: "The MPI test test_mpi for C in mode normal"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+    directories:
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+Users/sohai/OneDrive - Universidad Rey Juan Carlos/Documentos/Practicas_CAP/Practica2/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-y4jchh"
+      variable: "MPI_RESULT_C_test_mpi_normal"
+idad Rey Juan Carlos/Documentos/Practicas_CAP/Practica2/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-y4jchh"
+      cached: true
+
+      stdout: |
+GS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+ Universidad Rey Juan Carlos/Documentos/Practicas_CAP/Practica2/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-k2gdg7'
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_dcca6
+      cached: true
+      stdout: |
+        [1/2] C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1439~1.335\\bin\\Hostx64\\x64\\cl.exe  /nologo  -external:I"C:\\Program Files (x86)\\Microsoft SDKs\\MPI\\Include" -external:W0 /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_dcca6.dir\\test_mpi.c.obj /FdCMakeFiles\\cmTC_dcca6.dir\\ /FS -c "C:\\Users\\sohai\\OneDrive - Universidad Rey Juan Carlos\\Documentos\\Practicas_CAP\\Practica2\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-k2gdg7\\test_mpi.c"
+        Change Dir: 'C:/Users/sohai/OneDrive - Universidad Rey Juan Carlos/Documentos/Practicas_CAP/Practica2/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-y4jchh'
+        
+        Run Build Command(s): C:/PROGRA~1/MIB055~1/2022/COMMUN~1/Common7/IDE/COMMON~1/MICROS~1/CMake/Ninja/ninja.exe -v cmTC_6dabf
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_dcca6.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1439~1.335\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_dcca6.dir\\test_mpi.c.obj  /out:cmTC_dcca6.exe /implib:cmTC_dcca6.lib /pdb:cmTC_dcca6.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  "C:\\Program Files (x86)\\Microsoft SDKs\\MPI\\Lib\\x64\\msmpi.lib"  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_6dabf.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1439~1.335\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_6dabf.dir\\test_mpi.c.obj  /out:cmTC_6dabf.exe /implib:cmTC_6dabf.lib /pdb:cmTC_6dabf.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  "C:\\Program Files (x86)\\Microsoft SDKs\\MPI\\Lib\\x64\\msmpi.lib"  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+"
+      - "CMakeLists.txt:19 (find_package)"
+tudio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+    description: "The MPI test test_mpi for CXX in mode normal"
+    directories:
+The MPI test test_mpi for CXX in mode normal"
+    directories:
+      source: "C:/Users/sohai/OneDrive - Universidad Rey Juan Carlos/Documentos/Practicas_CAP/Practica2/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-kh58a0"
+      source: "C:/Users/sohai/OneDrive - Universidad Rey Juan Carlos/Documentos/Practicas_CAP/Practica2/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-9abrz8"
+      binary: "C:/Users/sohai/OneDrive - Universidad Rey Juan Carlos/Documentos/Practicas_CAP/Practica2/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-kh58a0"
+      binary: "C:/Users/sohai/OneDrive - Universidad Rey Juan Carlos/Documentos/Practicas_CAP/Practica2/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-9abrz8"
+    cmakeVariables:
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/sohai/OneDrive - Universidad Rey Juan Carlos/Documentos/Practicas_CAP/Practica2/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-kh58a0'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_d3582
+        [1/2] C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1439~1.335\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP  -external:I"C:\\Program Files (x86)\\Microsoft SDKs\\MPI\\Include" -external:W0 /DWIN32 /D_WINDOWS /W3 /GR /EHsc  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_3e350.dir\\test_mpi.cpp.obj /FdCMakeFiles\\cmTC_3e350.dir\\ /FS -c "C:\\Users\\sohai\\OneDrive - Universidad Rey Juan Carlos\\Documentos\\Practicas_CAP\\Practica2\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-kh58a0\\test_mpi.cpp"
+        [1/2] C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1439~1.335\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP  -external:I"C:\\Program Files (x86)\\Microsoft SDKs\\MPI\\Include" -external:W0 /DWIN32 /D_WINDOWS /W3 /GR /EHsc  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_d3582.dir\\test_mpi.cpp.obj /FdCMakeFiles\\cmTC_d3582.dir\\ /FS -c "C:\\Users\\sohai\\OneDrive - Universidad Rey Juan Carlos\\Documentos\\Practicas_CAP\\Practica2\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-9abrz8\\test_mpi.cpp"
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_3e350.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1439~1.335\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_3e350.dir\\test_mpi.cpp.obj  /out:cmTC_3e350.exe /implib:cmTC_3e350.lib /pdb:cmTC_3e350.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  "C:\\Program Files (x86)\\Microsoft SDKs\\MPI\\Lib\\x64\\msmpi.lib"  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_d3582.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1439~1.335\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_d3582.dir\\test_mpi.cpp.obj  /out:cmTC_d3582.exe /implib:cmTC_d3582.lib /pdb:cmTC_d3582.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  "C:\\Program Files (x86)\\Microsoft SDKs\\MPI\\Lib\\x64\\msmpi.lib"  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/FindMPI.cmake:1672 (_MPI_try_staged_settings)"
+  -
+ - "CMakeLists.txt:19 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode MPICXX"
+    directories:
+pile-v1"
+      source: "C:/Users/sohai/OneDrive - Universidad Rey Juan Carlos/Documentos/Practicas_CAP/Practica2/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-06b2x2"
+      binary: "C:/Users/sohai/OneDrive - Universidad Rey Juan Carlos/Documentos/Practicas_CAP/Practica2/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-06b2x2"
+    cmakeVariabl      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/FindMPI.cmake:1672 (_MPI_try_staged_settings)"
+      - "CMakeLists.txt:19 (find_package)"
+/Od /RTC1"
+    description: "The MPI test test_mpi for CXX in mode MPICXX"
+    directories:
+      source: "C:/Users/sohai/OneDrive - Universidad Rey Juan Carlos/Documentos/Practicas_CAP/Practica2/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-tilre1"
+      cached: true
+      binary: "C:/Users/sohai/OneDrive - Universidad Rey Juan Carlos/Documentos/Practicas_CAP/Practica2/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-tilre1"
+      stdout: |
+    cmakeVariables:
+        Change Dir: 'C:/Users/sohai/OneDrive - Universidad Rey Juan Carlos/Documentos/Practicas_CAP/Practica2/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-06b2x2'
+        
+E_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_MPICXX"
+crosoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_e3809
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/sohai/OneDrive - Universidad Rey Juan Carlos/Documentos/Practicas_CAP/Practica2/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-tilre1'
+        
+/2] C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1439~1.335\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP  -external:I"C:\\Program Files (x86)\\Microsoft SDKs\\MPI\\Include" -external:W0 /DWIN32 /D_WINDOWS /W3 /GR /EHsc  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_e3809.dir\\test_mpi.cpp.obj /FdCMakeFiles\\cmTC_e3809.dir\\ /FS -c "C:\\Users\\sohai\\OneDrive - Universidad Rey Juan Carlos\\Documentos\\Practicas_CAP\\Practica2\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-06b2x2\\test_mpi.cpp"
+        Run Build Command(s): C:/PROGRA~1/MIB055~1/2022/COMMUN~1/Common7/IDE/COMMON~1/MICROS~1/CMake/Ninja/ninja.exe -v cmTC_905df
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_e3809.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1439~1.335\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_e3809.dir\\test_mpi.cpp.obj  /out:cmTC_e3809.exe /implib:cmTC_e3809.lib /pdb:cmTC_e3809.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  "C:\\Program Files (x86)\\Microsoft SDKs\\MPI\\Lib\\x64\\msmpi.lib"  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+        [1/2] C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1439~1.335\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP  -external:I"C:\\Program Files (x86)\\Microsoft SDKs\\MPI\\Include" -external:W0 /DWIN32 /D_WINDOWS /W3 /GR /EHsc  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_905df.dir\\test_mpi.cpp.obj /FdCMakeFiles\\cmTC_905df.dir\\ /FS -c "C:\\Users\\sohai\\OneDrive - Universidad Rey Juan Carlos\\Documentos\\Practicas_CAP\\Practica2\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-tilre1\\test_mpi.cpp"
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_905df.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1439~1.335\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_905df.dir\\test_mpi.cpp.obj  /out:cmTC_905df.exe /implib:cmTC_905df.lib /pdb:cmTC_905df.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  "C:\\Program Files (x86)\\Microsoft SDKs\\MPI\\Lib\\x64\\msmpi.lib"  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+...
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:19 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "C:/Users/sohai/OneDrive - Universidad Rey Juan Carlos/Documentos/Practicas_CAP/Practica2/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-lvsbr3"
+      binary: "C:/Users/sohai/OneDrive - Universidad Rey Juan Carlos/Documentos/Practicas_CAP/Practica2/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-lvsbr3"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/sohai/OneDrive - Universidad Rey Juan Carlos/Documentos/Practicas_CAP/Practica2/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-lvsbr3'
+        
+        Run Build Command(s): C:/PROGRA~1/MIB055~1/2022/COMMUN~1/Common7/IDE/COMMON~1/MICROS~1/CMake/Ninja/ninja.exe -v cmTC_1e9db
+        [1/2] C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1439~1.335\\bin\\Hostx64\\x64\\cl.exe  /nologo  -external:I"C:\\Program Files (x86)\\Microsoft SDKs\\MPI\\Include" -external:W0 /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_1e9db.dir\\test_mpi.c.obj /FdCMakeFiles\\cmTC_1e9db.dir\\ /FS -c "C:\\Users\\sohai\\OneDrive - Universidad Rey Juan Carlos\\Documentos\\Practicas_CAP\\Practica2\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-lvsbr3\\test_mpi.c"
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_1e9db.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1439~1.335\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_1e9db.dir\\test_mpi.c.obj  /out:cmTC_1e9db.exe /implib:cmTC_1e9db.lib /pdb:cmTC_1e9db.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  "C:\\Program Files (x86)\\Microsoft SDKs\\MPI\\Lib\\x64\\msmpi.lib"  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:19 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode normal"
+    directories:
+      source: "C:/Users/sohai/OneDrive - Universidad Rey Juan Carlos/Documentos/Practicas_CAP/Practica2/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-1p3rwd"
+      binary: "C:/Users/sohai/OneDrive - Universidad Rey Juan Carlos/Documentos/Practicas_CAP/Practica2/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-1p3rwd"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/sohai/OneDrive - Universidad Rey Juan Carlos/Documentos/Practicas_CAP/Practica2/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-1p3rwd'
+        
+        Run Build Command(s): C:/PROGRA~1/MIB055~1/2022/COMMUN~1/Common7/IDE/COMMON~1/MICROS~1/CMake/Ninja/ninja.exe -v cmTC_724bc
+        [1/2] C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1439~1.335\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP  -external:I"C:\\Program Files (x86)\\Microsoft SDKs\\MPI\\Include" -external:W0 /DWIN32 /D_WINDOWS /W3 /GR /EHsc  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_724bc.dir\\test_mpi.cpp.obj /FdCMakeFiles\\cmTC_724bc.dir\\ /FS -c "C:\\Users\\sohai\\OneDrive - Universidad Rey Juan Carlos\\Documentos\\Practicas_CAP\\Practica2\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-1p3rwd\\test_mpi.cpp"
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_724bc.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1439~1.335\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_724bc.dir\\test_mpi.cpp.obj  /out:cmTC_724bc.exe /implib:cmTC_724bc.lib /pdb:cmTC_724bc.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  "C:\\Program Files (x86)\\Microsoft SDKs\\MPI\\Lib\\x64\\msmpi.lib"  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/FindMPI.cmake:1672 (_MPI_try_staged_settings)"
+      - "CMakeLists.txt:19 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode MPICXX"
+    directories:
+      source: "C:/Users/sohai/OneDrive - Universidad Rey Juan Carlos/Documentos/Practicas_CAP/Practica2/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-4gmatu"
+      binary: "C:/Users/sohai/OneDrive - Universidad Rey Juan Carlos/Documentos/Practicas_CAP/Practica2/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-4gmatu"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_MPICXX"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/sohai/OneDrive - Universidad Rey Juan Carlos/Documentos/Practicas_CAP/Practica2/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-4gmatu'
+        
+        Run Build Command(s): C:/PROGRA~1/MIB055~1/2022/COMMUN~1/Common7/IDE/COMMON~1/MICROS~1/CMake/Ninja/ninja.exe -v cmTC_ef2ad
+        [1/2] C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1439~1.335\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP  -external:I"C:\\Program Files (x86)\\Microsoft SDKs\\MPI\\Include" -external:W0 /DWIN32 /D_WINDOWS /W3 /GR /EHsc  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_ef2ad.dir\\test_mpi.cpp.obj /FdCMakeFiles\\cmTC_ef2ad.dir\\ /FS -c "C:\\Users\\sohai\\OneDrive - Universidad Rey Juan Carlos\\Documentos\\Practicas_CAP\\Practica2\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-4gmatu\\test_mpi.cpp"
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_ef2ad.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1439~1.335\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_ef2ad.dir\\test_mpi.cpp.obj  /out:cmTC_ef2ad.exe /implib:cmTC_ef2ad.lib /pdb:cmTC_ef2ad.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  "C:\\Program Files (x86)\\Microsoft SDKs\\MPI\\Lib\\x64\\msmpi.lib"  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+...
