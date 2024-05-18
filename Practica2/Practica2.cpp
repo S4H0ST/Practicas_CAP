@@ -137,8 +137,8 @@ int main(int argc, char** argv) {
     MPI_Init(&argc, &argv);
     MPI_Comm_rank(MPI_COMM_WORLD, &rank);
     MPI_Comm_size(MPI_COMM_WORLD, &nProcesses);
-    MPI_Status status; //MIRAR SI SE PUEDE ELIMINAR
-    MPI_Request request; //x2
+    MPI_Status status; 
+    MPI_Request request; 
 
     srand(time(0));
 
@@ -170,27 +170,13 @@ int main(int argc, char** argv) {
             MPI_Isend(info, 2, MPI_INT, i, 0, MPI_COMM_WORLD, &request); //Aquí solo enviaría el currentFrame y el random lo haría en el hijo en vez de en el padre
             printf("Enviado mensaje al proceso %d\n", i);
         }
-        mensaje = 0;
-        //int rankHijo;
-        //printf("Current frame = %d\t Total frame = %d\n", currentFrame, totalFrames);//Comprobar si esto lo hacen para ver si hemos llegado al ultimo frame
-        //fflush(stdout);
-        /*
-        while (currentFrame != totalFrames) {
-            MPI_Recv(&mensaje, 1, MPI_INT, MPI_ANY_SOURCE, 0, MPI_COMM_WORLD, MPI_STATUSES_IGNORE);
-			rankHijo = mensaje; 
-            if (currentFrame > totalFrames) {
-                break;
-            }
-            printf("Pre send\n");
-            fflush(stdout);
-            currentFrame++;
-            MPI_Send(info, 1, MPI_INT, rankHijo, 0, MPI_COMM_WORLD); //Comprobar por qué hacen esto o si realmente sirve para algo
-        }*/
+       
         printf("Se han enviado todos los frames, esperando a ser resueltos\n");
         
         fflush(stdout);
 
-        mensaje = -1;
+        
+        info[0] = -1;
         
         for (int i = 1; i < nProcesses - 1; i++) {
             MPI_Send(info, 2, MPI_INT, i, 0, MPI_COMM_WORLD);
@@ -200,17 +186,18 @@ int main(int argc, char** argv) {
         for (int i = 1; i < nProcesses - 1; i++) {
             MPI_Recv(&mensaje, 1, MPI_INT, MPI_ANY_SOURCE, 0, MPI_COMM_WORLD, MPI_STATUS_IGNORE); //Esperamos a que cada proceso haya terminado para calcular el tiempo final
             //COMPROBAR SI INFO SE ENVIA BIEN CON "&"
-            printf("Recibido mensaje de finalizado del hijo: %d", info[0]); //En el hijo hemos guardado en info[0] el rank
+            printf("Recibido mensaje de finalizado del hijo: %d\n", mensaje); 
+            fflush(stdout);
         }
-
-        MPI_Finalize();
-
+       
         double end_time = omp_get_wtime(); //establece el tiempo de finalización
         if (rank == 0) {
 
-			printf("Tiempo de ejecucion: %f segundos.\n", end_time - start_time);
+			printf("Tiempo de ejecucion total del programa: %f segundos.\n", end_time - start_time);
 
         }
+        
+        MPI_Finalize();
     }
     else {
         //hijo
@@ -258,6 +245,7 @@ int main(int argc, char** argv) {
             free(data);
 
         }
+        MPI_Finalize();
     }
 
 
