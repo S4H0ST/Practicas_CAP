@@ -34,7 +34,7 @@
 
 Scene randomScene() {
     int n = 500;
-    Scene list;
+    Scene list; // es
     list.add(new Object(
         new Sphere(Vec3(0, -1000, 0), 1000),
         new Diffuse(Vec3(0.5, 0.5, 0.5))
@@ -126,130 +126,143 @@ void rayTracingCPU(unsigned char* img, int w, int h, int ns = 10, int px = 0, in
 }
 
 //cd cmake-build-debug
-//mpiexec -n 12 .\Practica2_CAP.exe
+//mpiexec -n 12 .\Practica2.exe
 //mpiexec -help2
 
 
 int main(int argc, char** argv) {
-    double start_time = omp_get_wtime();
+    double start_time = omp_get_wtime(); //establece el tiempo de inicio
     int nProcesses, rank; // Se declaran las variables para almacenar el número de procesos y el rango de cada proceso
+
     MPI_Init(&argc, &argv);
     MPI_Comm_rank(MPI_COMM_WORLD, &rank);
     MPI_Comm_size(MPI_COMM_WORLD, &nProcesses);
-    MPI_Status status;
-    MPI_Request request;
+    MPI_Status status; //MIRAR SI SE PUEDE ELIMINAR
+    MPI_Request request; //x2
+
     srand(time(0));
 
-    int w = 256;// 1200; ancho
-    int h = 256;// 800; alto
-    int ns = 10; //numero de rayos
+    int width = 256; // 1200; ancho
+    int height = 256; // 800; alto
+    int rayNumber = 10; // numero de rayos
 
-    printf("llego aqui\n");
     fflush(stdout);
-    int currentFrame = 0;
-    int random = rand();
-    int mensaje5[] = { w, h, ns, currentFrame, random };
+    int currentFrame, random, mensaje;    
+    int info[2]; //frame actual y numero frame (probar que funciona igualmente sin pasar w h y s)
 
     //maestro
     if (rank == 0) {
-        int totalFrames = nProcesses - 1;
         //if (argc > 1) {
         //    totalFrames = std::stoi(argv[1]); // Convierte el argumento a entero
         //}
-
-        for (int i = 1; i <= fmin(nProcesses - 1, totalFrames); ++i) {
+        printf("Entramos en el padre: \n");
+        for (int i = 1; i <= nProcesses - 1; i++) {
+            
             srand(i);
-            currentFrame = i;
-            mensaje5[3] = currentFrame;
-            mensaje5[4] = rand();
-            //Enviar {w, h, ns, currentFrame, random}
-            printf("Main:\tenvia hijo%d -> frame = %d random = %d\n", i, currentFrame, random);
-            fflush(stdout);
-            MPI_Isend(mensaje5, 5, MPI_INT, i, 0, MPI_COMM_WORLD, &request);
+            currentFrame = i;//Mirar como arreglar para que se envíen todos los frames existentes desde el 0
+
+            info[0] = currentFrame; //enviamos el numero de proceso
+            info[1] = rand(); //enviamos 
+            printf("Enviamos currentFrame: %d y un numero random: %d al hijo %d\n", info[0], info[1], i);
+
+			fflush(stdout); //comprobar que esto no borre los debugs
+            
+            MPI_Isend(info, 2, MPI_INT, i, 0, MPI_COMM_WORLD, &request); //Aquí solo enviaría el currentFrame y el random lo haría en el hijo en vez de en el padre
+            printf("Enviado mensaje al proceso %d\n", i);
         }
-        int mensaje = 0;
-        int rankHijo = 0;
-        printf("Current frame = %d\tTotal frame = %d\n", currentFrame, totalFrames);
-        fflush(stdout);
+        mensaje = 0;
+        //int rankHijo;
+        //printf("Current frame = %d\t Total frame = %d\n", currentFrame, totalFrames);//Comprobar si esto lo hacen para ver si hemos llegado al ultimo frame
+        //fflush(stdout);
+        /*
         while (currentFrame != totalFrames) {
             MPI_Recv(&mensaje, 1, MPI_INT, MPI_ANY_SOURCE, 0, MPI_COMM_WORLD, MPI_STATUSES_IGNORE);
-            rankHijo = mensaje;
+			rankHijo = mensaje; 
             if (currentFrame > totalFrames) {
                 break;
             }
             printf("Pre send\n");
             fflush(stdout);
             currentFrame++;
-            MPI_Send(mensaje5, 1, MPI_INT, rankHijo, 0, MPI_COMM_WORLD);
-        }
-        printf("Pre send2\n");
+            MPI_Send(info, 1, MPI_INT, rankHijo, 0, MPI_COMM_WORLD); //Comprobar por qué hacen esto o si realmente sirve para algo
+        }*/
+        printf("Se han enviado todos los frames, esperando a ser resueltos\n");
+        
         fflush(stdout);
-        mensaje5[0] = 0;
-        for (int i = 1; i < nProcesses; ++i) {
-            MPI_Send(mensaje5, 5, MPI_INT, i, 0, MPI_COMM_WORLD);
+
+        mensaje = -1;
+        
+        for (int i = 1; i < nProcesses - 1; i++) {
+            MPI_Send(info, 2, MPI_INT, i, 0, MPI_COMM_WORLD);
+            //COMPROBAR SI INFO SE ENVIA BIEN SIN "&"
+        }
+        
+        for (int i = 1; i < nProcesses - 1; i++) {
+            MPI_Recv(&mensaje, 1, MPI_INT, MPI_ANY_SOURCE, 0, MPI_COMM_WORLD, MPI_STATUS_IGNORE); //Esperamos a que cada proceso haya terminado para calcular el tiempo final
+            //COMPROBAR SI INFO SE ENVIA BIEN CON "&"
+            printf("Recibido mensaje de finalizado del hijo: %d", info[0]); //En el hijo hemos guardado en info[0] el rank
         }
 
+        MPI_Finalize();
+
+        double end_time = omp_get_wtime(); //establece el tiempo de finalización
+        if (rank == 0) {
+
+			printf("Tiempo de ejecucion: %f segundos.\n", end_time - start_time);
+
+        }
     }
     else {
         //hijo
         while (1) {
-            //Recibir {w, h, ns, currentFrame, random}
-            MPI_Recv(mensaje5, 5, MPI_INT, 0, 0, MPI_COMM_WORLD, &status);
-            if (mensaje5[0] == 0)
-                break;
-            w = mensaje5[0];
-            h = mensaje5[1];
-            ns = mensaje5[2];
-            currentFrame = mensaje5[3];
-            random = mensaje5[4];
-            printf("Hijo %d:\tframe = %d random = %d\n", rank, currentFrame, random);
+
+			MPI_Recv(info, 2, MPI_INT, 0, 0, MPI_COMM_WORLD, &status); 
+            
+            if (info[0] == -1) {
+                mensaje = rank;//Enviamos al padre, cuál es el hijo que ha terminado
+                MPI_Send(&mensaje, 1, MPI_INT, 0, 0, MPI_COMM_WORLD); //Enviamos al padre que el hijo ya ha terminado su misión
+				printf("Hijo %d,\tFinaliza\n", rank); //imprimimos que el hijo ha terminado
+                break; //terminamos el hijo
+            }
+            
+            currentFrame = info[0];
+            printf("Recibido frame numero: %d en el hijo: %d\n", currentFrame, rank);
+			random = info[1]; //Recibimos y guardamos el random
+            printf("Recibido random: %d en el hijo: %d\n", random, rank);
+            
             fflush(stdout);
 
-            //Empieza con un parche 1:1
-            int patch_x_size = w;
-            int patch_y_size = h;
-            int patch_x_idx = 1;
-            int patch_y_idx = 1;
-            srand(random);
-            int size = sizeof(unsigned char) * patch_x_size * patch_y_size * 3;
+            //Empieza con un parche 1:1 (Mirar si se puede simplificar)
+            
+			int patch_x_idx = 1; //se refiere a la posición del parche en x
+			int patch_y_idx = 1; //se refiere a la posición del parche en y
+            srand(random); //sirve para que cada hijo use el mismo random como semilla para cuando usen rand entiendo
+            int size = sizeof(unsigned char) * width * height * 3;
             unsigned char* data = (unsigned char*)calloc(size, 1);
 
 
-            int patch_x_start = (patch_x_idx - 1) * patch_x_size;
-            int patch_x_end = patch_x_idx * patch_x_size;
-            int patch_y_start = (patch_y_idx - 1) * patch_y_size;
-            int patch_y_end = patch_y_idx * patch_y_size;
+            int patch_x_start = (patch_x_idx - 1) * width;
+            int patch_x_end = patch_x_idx * width;
+            int patch_y_start = (patch_y_idx - 1) * height;
+            int patch_y_end = patch_y_idx * height;
 
             printf("Hijo %d:\tcalculando frame %d\n", rank, currentFrame);
             fflush(stdout);
-            rayTracingCPU(data, w, h, ns, patch_x_start, patch_y_start, patch_x_end, patch_y_end);
+            rayTracingCPU(data, width, height, rayNumber, patch_x_start, patch_y_start, patch_x_end, patch_y_end);
 
             char fileName[32];
             sprintf(fileName, "../imgCPUImg%d.bmp", currentFrame);
-            writeBMP(fileName, data, patch_x_size, patch_y_size);
+            writeBMP(fileName, data, width, height);
             printf("Hijo %d,\tImagen%d creada\n", rank, currentFrame);
             fflush(stdout);
             free(data);
 
-            //Enviar acabado {rank}
-            printf("Hijo %d,\tEnvia rank %d\n", rank, rank);
-            fflush(stdout);
-            MPI_Send(&rank, 1, MPI_INT, 0, 0, MPI_COMM_WORLD);
-
         }
-        printf("Hijo %d,\tFinaliza\n", rank);
-        fflush(stdout);
-
-    }
-    MPI_Finalize();
-
-    double end_time = omp_get_wtime();
-    if (rank == 0) {
-
-        std::cout << "Tiempo de ejecucion: " << (end_time - start_time) << " segundos." << std::endl;
-
     }
 
-    //getchar();
+
+    
+
+    
     return (0);
 }

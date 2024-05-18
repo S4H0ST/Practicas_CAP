@@ -14,7 +14,6 @@ add_executable (Practica2 "Practica2.cpp"
         "Original/Scene.cpp"
         "Original/Sphere.cpp"
         "Original/utils.cpp"
-
 )
 find_package(MPI)
 include_directories(SYSTEM ${MPI_C_INCLUDE_DIRS})

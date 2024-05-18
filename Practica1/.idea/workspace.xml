@@ -21,108 +21,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="35fa169a-ed9b-48fd-a631-762bcaee4220" name="Changes" comment="update practica 1">
-      <change beforePath="$PROJECT_DIR$/../Memorias/Practica 1/Practica 1- MPI(copia).docx" beforeDir="false" afterPath="$PROJECT_DIR$/../Memorias/Practica 1/Practica 1- MPI(copia).docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Memorias/Practica 1/Practica 1- MPI.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../Memorias/Practica 1/Practica 1- MPI.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/cache-v2-4a73a70614ae95001f16.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-0c992eb4495ecdd70255.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-aea68e808816ecdb9768.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2024-04-01T12-41-28-0009.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.27.8/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.27.8/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.27.8/CompilerIdC/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.27.8/CompilerIdC/a.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FindMPI/test_mpi_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FindMPI/test_mpi_C.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Practica1.dir/enigma.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Practica1.dir/main.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Practica1.dir/main.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rules.ninja" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Practica1.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Practica1.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/build.ninja" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/main.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practica2/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practica2/.idea/Practica2.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practica2/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practica2/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practica2/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practica2/Archivos encavezados/Camera.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practica2/Archivos encavezados/CollisionData.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practica2/Archivos encavezados/Crystalline.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practica2/Archivos encavezados/Diffuse.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practica2/Archivos encavezados/Material.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practica2/Archivos encavezados/Metallic.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practica2/Archivos encavezados/Object.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practica2/Archivos encavezados/Ray.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practica2/Archivos encavezados/Scene.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practica2/Archivos encavezados/Shape.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practica2/Archivos encavezados/Sphere.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practica2/Archivos encavezados/Vec3.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practica2/Archivos encavezados/random.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practica2/Archivos encavezados/utils.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practica2/Archivos originales/Crystalline.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practica2/Archivos originales/Metallic.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practica2/Archivos originales/Scene.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practica2/Archivos originales/Sphere.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practica2/Archivos originales/Vec3.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practica2/Archivos originales/random.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practica2/Archivos originales/utils.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practica2/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Practica2/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practica2/cmake-build-debug/.cmake/api/v1/query/cache-v2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practica2/cmake-build-debug/.cmake/api/v1/query/cmakeFiles-v1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practica2/cmake-build-debug/.cmake/api/v1/query/codemodel-v2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practica2/cmake-build-debug/.cmake/api/v1/query/toolchains-v1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practica2/cmake-build-debug/.cmake/api/v1/reply/cache-v2-8e0f4b6eb84b035daabb.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practica2/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-bf12a3af79687850838b.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practica2/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-fe95bf1ca48b536ad177.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practica2/cmake-build-debug/.cmake/api/v1/reply/directory-.-Debug-d0094a50bb2071803777.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practica2/cmake-build-debug/.cmake/api/v1/reply/index-2024-04-19T10-31-18-0875.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practica2/cmake-build-debug/.cmake/api/v1/reply/target-Practica2-Debug-19562a9e92e186723e7d.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practica2/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-ec72b9df363f3c515cf2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practica2/cmake-build-debug/.ninja_deps" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practica2/cmake-build-debug/.ninja_log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practica2/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practica2/cmake-build-debug/CMakeFiles/3.27.8/CMakeCCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practica2/cmake-build-debug/CMakeFiles/3.27.8/CMakeCXXCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practica2/cmake-build-debug/CMakeFiles/3.27.8/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practica2/cmake-build-debug/CMakeFiles/3.27.8/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practica2/cmake-build-debug/CMakeFiles/3.27.8/CMakeRCCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practica2/cmake-build-debug/CMakeFiles/3.27.8/CMakeSystem.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practica2/cmake-build-debug/CMakeFiles/3.27.8/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practica2/cmake-build-debug/CMakeFiles/3.27.8/CompilerIdC/a.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practica2/cmake-build-debug/CMakeFiles/3.27.8/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practica2/cmake-build-debug/CMakeFiles/3.27.8/CompilerIdCXX/a.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practica2/cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practica2/cmake-build-debug/CMakeFiles/FindMPI/test_mpi_C.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practica2/cmake-build-debug/CMakeFiles/FindMPI/test_mpi_CXX.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practica2/cmake-build-debug/CMakeFiles/Practica2.dir/Archivos_originales/Crystalline.cpp.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practica2/cmake-build-debug/CMakeFiles/Practica2.dir/Archivos_originales/Metallic.cpp.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practica2/cmake-build-debug/CMakeFiles/Practica2.dir/Archivos_originales/Scene.cpp.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practica2/cmake-build-debug/CMakeFiles/Practica2.dir/Archivos_originales/Sphere.cpp.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practica2/cmake-build-debug/CMakeFiles/Practica2.dir/Archivos_originales/random.cpp.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practica2/cmake-build-debug/CMakeFiles/Practica2.dir/Archivos_originales/utils.cpp.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practica2/cmake-build-debug/CMakeFiles/Practica2.dir/main.cpp.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practica2/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practica2/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practica2/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practica2/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practica2/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practica2/cmake-build-debug/Practica2.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practica2/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practica2/cmake-build-debug/build.ninja" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practica2/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practica2/imgCPUImg1.bmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practica2/main.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pruebas/enigma/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/../Pruebas/enigma/cmake-build-debug/.ninja_deps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pruebas/enigma/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/../Pruebas/enigma/cmake-build-debug/.ninja_log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pruebas/enigma/cmake-build-debug/CMakeFiles/enigma.dir/main.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../Pruebas/enigma/cmake-build-debug/CMakeFiles/enigma.dir/main.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pruebas/enigma/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Pruebas/enigma/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pruebas/enigma/cmake-build-debug/enigma.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../Pruebas/enigma/cmake-build-debug/enigma.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pruebas/enigma/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/../Pruebas/enigma/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practica2/.vs/Practica2/FileContentIndex/54dbec78-bd6c-4986-9c96-7745931d552d.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practica2/.vs/Practica2/v17/.wsuo" beforeDir="false" afterPath="$PROJECT_DIR$/../Practica2/.vs/Practica2/v17/.wsuo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practica2/.vs/Practica2/v17/Browse.VC.db" beforeDir="false" afterPath="$PROJECT_DIR$/../Practica2/.vs/Practica2/v17/Browse.VC.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practica2/.vs/Practica2/v17/DocumentLayout.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Practica2/.vs/Practica2/v17/DocumentLayout.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practica2/.vs/cmake.db" beforeDir="false" afterPath="$PROJECT_DIR$/../Practica2/.vs/cmake.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practica2/.vs/slnx.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/../Practica2/.vs/slnx.sqlite" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practica2/Practica2.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Practica2/Practica2.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practica2/out/build/x64-Debug/.cmake/api/v1/reply/cache-v2-18abcc101786f7711e2b.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practica2/out/build/x64-Debug/.cmake/api/v1/reply/index-2024-05-07T10-14-07-0381.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practica2/out/build/x64-Debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/../Practica2/out/build/x64-Debug/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practica2/out/build/x64-Debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Practica2/out/build/x64-Debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practica2/out/build/x64-Debug/CMakeFiles/CMakeConfigureLog.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Practica2/out/build/x64-Debug/CMakeFiles/CMakeConfigureLog.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practica2/out/build/x64-Debug/CMakeFiles/FindMPI/test_mpi_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Practica2/out/build/x64-Debug/CMakeFiles/FindMPI/test_mpi_C.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practica2/out/build/x64-Debug/CMakeFiles/FindMPI/test_mpi_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Practica2/out/build/x64-Debug/CMakeFiles/FindMPI/test_mpi_CXX.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practica2/out/build/x64-Debug/CMakeFiles/rules.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/../Practica2/out/build/x64-Debug/CMakeFiles/rules.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practica2/out/build/x64-Debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Practica2/out/build/x64-Debug/Testing/Temporary/LastTest.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -149,25 +64,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;CMake Application.Practica1.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
-    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
-    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/sohai/OneDrive - Universidad Rey Juan Carlos/Documentos/Practicas_CAP/Practica1&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "CMake Application.Practica1.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/sohai/OneDrive - Universidad Rey Juan Carlos/Documentos/Practicas_CAP/Practica2",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="Practica1" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Practica1" TARGET_NAME="Practica1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Practica1" RUN_TARGET_NAME="Practica1">
       <method v="2">
@@ -197,6 +112,7 @@
       <workItem from="1713520158014" duration="4000" />
       <workItem from="1715071531008" duration="200000" />
       <workItem from="1715076378383" duration="691000" />
+      <workItem from="1715109269007" duration="21000" />
     </task>
     <task id="LOCAL-00001" summary="update practica 1">
       <option name="closed" value="true" />

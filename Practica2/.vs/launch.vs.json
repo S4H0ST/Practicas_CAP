@@ -7,6 +7,12 @@
       "project": "CMakeLists.txt",
       "projectTarget": "Practica2.exe",
       "name": "Practica2.exe"
+    },
+    {
+      "type": "default",
+      "project": "CMakeLists.txt",
+      "projectTarget": "Practica2.exe (C:\\Users\\sohai\\OneDrive - Universidad Rey Juan Carlos\\Documentos\\Practicas_CAP\\Practica2\\out\\build\\Practica2.exe)",
+      "name": "Practica2.exe (C:\\Users\\sohai\\OneDrive - Universidad Rey Juan Carlos\\Documentos\\Practicas_CAP\\Practica2\\out\\build\\Practica2.exe)"
     }
   ]
 }
