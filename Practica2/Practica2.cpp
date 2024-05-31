@@ -164,7 +164,7 @@ int main(int argc, char** argv) {
         }
 
         endTime = MPI_Wtime();
-        printf("Total time taken by master process: %f seconds\n", endTime - startTime);
+        printf("Padre, Tiempo total de ejecucion: %f segundos\n", endTime - startTime);
 
         MPI_Finalize();
     }
@@ -203,7 +203,7 @@ int main(int argc, char** argv) {
             rayTracingCPU(data, width, height, rayNumber, patch_x_start, patch_y_start, patch_x_end, patch_y_end);
             endTime = MPI_Wtime();
 
-            printf("Hijo %d,\tTime taken for rayTracingCPU: %f seconds\n", rank, endTime - startTime);
+            printf("Hijo %d,\tTiempo de ejecucion: %f segundos\n", rank, endTime - startTime);
 
             char fileName[32];
             sprintf(fileName, "../imgCPUImg%d.bmp", currentFrame);
