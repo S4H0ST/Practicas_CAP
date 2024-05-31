@@ -8,31 +8,15 @@
 79	3154	7379259411665191	CMakeFiles/Practica2_2.dir/Original/Scene.cpp.obj	b427b6ae51e90c92
 20	1740	7376874482932113	CMakeFiles/Practica2_2.dir/Original/random.obj	164722eaed43bb61
 33	1748	7376874483027949	CMakeFiles/Practica2_2.dir/Original/Sphere.obj	51b7993067da7b4f
-14	803	7386376500104930	CMakeFiles/Practica2_2.dir/Practica2_2.cpp.obj	cf50fdc90184d08c
+16	818	7387236703512816	CMakeFiles/Practica2_2.dir/Practica2_2.cpp.obj	cf50fdc90184d08c
 1744	2304	7379256879463564	Practica2_2.exe	f0f0f101ed17ee95
-6	8851	7387118131970522	build.ninja	97f72d1ed847bee5
+6	8851	7388819284402614	build.ninja	97f72d1ed847bee5
 93	3031	7379259410119407	CMakeFiles/Practica2_2.dir/Original/Sphere.cpp.obj	2f22b6587ee35fc5
 47	3091	7379259411158281	CMakeFiles/Practica2_2.dir/Original/Crystalline.cpp.obj	a82b3089187a91c5
 57	3323	7379259413351822	CMakeFiles/Practica2_2.dir/Original/Metallic.cpp.obj	502e4d8225a699cb
 105	3329	7379259413381813	CMakeFiles/Practica2_2.dir/Original/utils.cpp.obj	1f6bcb8d97fd3abd
-804	997	7386376501514457	C:/Users/sohai/OneDrive - Universidad Rey Juan Carlos/Documentos/Practicas_CAP/Practica2_2/Practica2_2/out/build/Practica2_2.exe	8cff13f283ab6c3e
-31	1294	7387180640712444	CMakeFiles/Practica2_2.dir/Practica2_2.cpp.obj	cf50fdc90184d08c
-1296	1569	7387180642751818	C:/Users/sohai/OneDrive - Universidad Rey Juan Carlos/Documentos/Practicas_CAP/Practica2_2/Practica2_2/out/build/Practica2_2.exe	8cff13f283ab6c3e
-14	1064	7387191900206870	CMakeFiles/Practica2_2.dir/Practica2_2.cpp.obj	cf50fdc90184d08c
-1065	1268	7387191901810411	C:/Users/sohai/OneDrive - Universidad Rey Juan Carlos/Documentos/Practicas_CAP/Practica2_2/Practica2_2/out/build/Practica2_2.exe	8cff13f283ab6c3e
-15	792	7387194115627257	CMakeFiles/Practica2_2.dir/Practica2_2.cpp.obj	cf50fdc90184d08c
-793	971	7387194117001138	C:/Users/sohai/OneDrive - Universidad Rey Juan Carlos/Documentos/Practicas_CAP/Practica2_2/Practica2_2/out/build/Practica2_2.exe	8cff13f283ab6c3e
-15	1064	7387216643572025	CMakeFiles/Practica2_2.dir/Practica2_2.cpp.obj	cf50fdc90184d08c
-1065	1266	7387216645142850	C:/Users/sohai/OneDrive - Universidad Rey Juan Carlos/Documentos/Practicas_CAP/Practica2_2/Practica2_2/out/build/Practica2_2.exe	8cff13f283ab6c3e
-16	775	7387217942722984	CMakeFiles/Practica2_2.dir/Practica2_2.cpp.obj	cf50fdc90184d08c
-776	945	7387217944132890	C:/Users/sohai/OneDrive - Universidad Rey Juan Carlos/Documentos/Practicas_CAP/Practica2_2/Practica2_2/out/build/Practica2_2.exe	8cff13f283ab6c3e
-15	797	7387220049366365	CMakeFiles/Practica2_2.dir/Practica2_2.cpp.obj	cf50fdc90184d08c
-798	1000	7387220050934231	C:/Users/sohai/OneDrive - Universidad Rey Juan Carlos/Documentos/Practicas_CAP/Practica2_2/Practica2_2/out/build/Practica2_2.exe	8cff13f283ab6c3e
-15	1074	7387226863954295	CMakeFiles/Practica2_2.dir/Practica2_2.cpp.obj	cf50fdc90184d08c
-1075	1279	7387226865547268	C:/Users/sohai/OneDrive - Universidad Rey Juan Carlos/Documentos/Practicas_CAP/Practica2_2/Practica2_2/out/build/Practica2_2.exe	8cff13f283ab6c3e
-17	813	7387228526141488	CMakeFiles/Practica2_2.dir/Practica2_2.cpp.obj	cf50fdc90184d08c
-814	992	7387228527597573	C:/Users/sohai/OneDrive - Universidad Rey Juan Carlos/Documentos/Practicas_CAP/Practica2_2/Practica2_2/out/build/Practica2_2.exe	8cff13f283ab6c3e
-15	1065	7387234655119120	CMakeFiles/Practica2_2.dir/Practica2_2.cpp.obj	cf50fdc90184d08c
-1067	1240	7387234656521456	C:/Users/sohai/OneDrive - Universidad Rey Juan Carlos/Documentos/Practicas_CAP/Practica2_2/Practica2_2/out/build/Practica2_2.exe	8cff13f283ab6c3e
-16	818	7387236703512816	CMakeFiles/Practica2_2.dir/Practica2_2.cpp.obj	cf50fdc90184d08c
 819	997	7387236704910252	C:/Users/sohai/OneDrive - Universidad Rey Juan Carlos/Documentos/Practicas_CAP/Practica2_2/Practica2_2/out/build/Practica2_2.exe	8cff13f283ab6c3e
+15	830	7388820806133201	CMakeFiles/Practica2_2.dir/Practica2_2.cpp.obj	cf50fdc90184d08c
+831	1027	7388820807680373	C:/Users/sohai/OneDrive - Universidad Rey Juan Carlos/Documentos/Practicas_CAP/Practica2_2/Practica2_2/out/build/Practica2_2.exe	8cff13f283ab6c3e
+14	840	7388823120232176	CMakeFiles/Practica2_2.dir/Practica2_2.cpp.obj	cf50fdc90184d08c
+840	1030	7388823121778448	C:/Users/sohai/OneDrive - Universidad Rey Juan Carlos/Documentos/Practicas_CAP/Practica2_2/Practica2_2/out/build/Practica2_2.exe	8cff13f283ab6c3e
