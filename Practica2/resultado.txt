@@ -6,49 +6,25 @@ Enviado mensaje al proceso 2
 Enviamos currentFrame: 3 y un numero random: 48 al hijo 3
 Recibido frame numero: 1 en el hijo: 1
 Recibido random: 41 en el hijo: 1
-Hijo 1: calculando frame 1
 Enviado mensaje al proceso 3
 Se han enviado todos los frames, esperando a ser resueltos
 Recibido frame numero: 2 en el hijo: 2
 Recibido random: 45 en el hijo: 2
-Hijo 2: calculando frame 2
-Recibido frame numero: 3 en el hijo: 3
-Recibido random: 48 en el hijo: 3
-Hijo 3: calculando frame 3
-Hijo 1, Imagen1 creada
-Recibido mensaje de finalizado del hijo: 1
-Hijo 3, Imagen3 creada
-Recibido mensaje de finalizado del hijo: 3
-Hijo 2, Imagen2 creada
-Recibido mensaje de finalizado del hijo: 2
-Tiempo de ejecucion total del programa: 80.687087 segundos.
-Hijo 1, Finaliza
-Hijo 3, Finaliza
-Hijo 2, Finaliza
-PS C:\Users\sohai\OneDrive - Universidad Rey Juan Carlos\Documentos\Practicas_CAP\Practica2\out\build> mpiexec -n 4 .\Practica2.exe
-Enviamos currentFrame: 1 y un numero random: 41 al hijo 1
-Enviado mensaje al proceso 1
-Enviamos currentFrame: 2 y un numero random: 45 al hijo 2
-Enviado mensaje al proceso 2
-Enviamos currentFrame: 3 y un numero random: 48 al hijo 3
-Enviado mensaje al proceso 3
-Se han enviado todos los frames, esperando a ser resueltos
-Recibido frame numero: 1 en el hijo: 1
-Recibido random: 41 en el hijo: 1
 Hijo 1: calculando frame 1
-Recibido frame numero: 2 en el hijo: 2
-Recibido random: 45 en el hijo: 2
+Hijo 2: calculando frame 2
 Recibido frame numero: 3 en el hijo: 3
 Recibido random: 48 en el hijo: 3
-Hijo 2: calculando frame 2
 Hijo 3: calculando frame 3
+Hijo 3, Time taken for rayTracingCPU: 81.994419 seconds
 Hijo 3, Imagen3 creada
 Recibido mensaje de finalizado del hijo: 3
+Hijo 2, Time taken for rayTracingCPU: 82.842457 seconds
 Hijo 2, Imagen2 creada
 Recibido mensaje de finalizado del hijo: 2
+Hijo 1, Time taken for rayTracingCPU: 83.651067 seconds
 Hijo 1, Imagen1 creada
 Recibido mensaje de finalizado del hijo: 1
-Hijo 2, Finaliza
+Total time taken by master process: 83.652657 seconds
 Hijo 1, Finaliza
+Hijo 2, Finaliza
 Hijo 3, Finaliza
-Tiempo de ejecucion total del programa: 88.647374 segundos.

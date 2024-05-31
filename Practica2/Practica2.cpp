@@ -1,14 +1,8 @@
 ﻿#include <mpi.h>
-#include <omp.h>
 #include <stdio.h>
-#include <math.h>
-
-#include <float.h>
-#include <cstdio>
 #include <cstdlib>
 #include <ctime>
-#include <limits>
-#include <string>
+#include <omp.h>
 
 #include "Header/Camera.h"
 #include "Header/Object.h"
@@ -115,8 +109,8 @@ void rayTracingCPU(unsigned char* img, int w, int h, int ns = 10, int px = 0, in
 }
 
 int main(int argc, char** argv) {
-    double start_time = omp_get_wtime();
     int nProcesses, rank;
+    double startTime, endTime;
 
     MPI_Init(&argc, &argv);
     MPI_Comm_rank(MPI_COMM_WORLD, &rank);
@@ -134,8 +128,10 @@ int main(int argc, char** argv) {
     int currentFrame, random, mensaje;
     int info[2];
 
-    // Maestro
+    // Master process
     if (rank == 0) {
+        startTime = MPI_Wtime();
+
         for (int i = 1; i < nProcesses; i++) {
             srand(i);
             currentFrame = i;
@@ -154,25 +150,26 @@ int main(int argc, char** argv) {
 
         fflush(stdout);
 
-        // Esperar finalización de todos los procesos
+        // Wait for all processes to finish
         for (int i = 1; i < nProcesses; i++) {
             MPI_Recv(&mensaje, 1, MPI_INT, MPI_ANY_SOURCE, 0, MPI_COMM_WORLD, MPI_STATUS_IGNORE);
             printf("Recibido mensaje de finalizado del hijo: %d\n", mensaje);
             fflush(stdout);
         }
 
-        double end_time = omp_get_wtime();
-        printf("Tiempo de ejecucion total del programa: %f segundos.\n", end_time - start_time);
-
-        // Enviar mensaje de terminación a los hijos
+        // Send termination message to children
         for (int i = 1; i < nProcesses; i++) {
             info[0] = -1;
             MPI_Send(info, 2, MPI_INT, i, 0, MPI_COMM_WORLD);
         }
 
+        endTime = MPI_Wtime();
+        printf("Total time taken by master process: %f seconds\n", endTime - startTime);
+
         MPI_Finalize();
-    } else {
-        // Hijo
+    }
+    else {
+        // Child process
         while (1) {
             MPI_Recv(info, 2, MPI_INT, 0, 0, MPI_COMM_WORLD, &status);
 
@@ -201,7 +198,12 @@ int main(int argc, char** argv) {
 
             printf("Hijo %d:\tcalculando frame %d\n", rank, currentFrame);
             fflush(stdout);
+
+            startTime = MPI_Wtime();
             rayTracingCPU(data, width, height, rayNumber, patch_x_start, patch_y_start, patch_x_end, patch_y_end);
+            endTime = MPI_Wtime();
+
+            printf("Hijo %d,\tTime taken for rayTracingCPU: %f seconds\n", rank, endTime - startTime);
 
             char fileName[32];
             sprintf(fileName, "../imgCPUImg%d.bmp", currentFrame);
@@ -217,3 +219,4 @@ int main(int argc, char** argv) {
     }
     return 0;
 }
+
