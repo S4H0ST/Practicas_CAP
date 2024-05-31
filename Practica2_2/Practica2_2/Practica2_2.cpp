@@ -125,7 +125,7 @@ void rayTracingCPU(unsigned char* img, int w, int h, int ns = 10, int px = 0, in
 }
 
 int main(int argc, char** argv) {
-
+	double start_time = omp_get_wtime(); //establece el tiempo de inicio
 	int nProcesses, rank;
 	MPI_Init(&argc, &argv);
 	MPI_Comm_rank(MPI_COMM_WORLD, &rank);
@@ -192,6 +192,7 @@ int main(int argc, char** argv) {
 
 			free(data);
 		}
+		
 	}
 	else {
 		int mensaje2[4];
@@ -233,6 +234,9 @@ int main(int argc, char** argv) {
 	}
 
 	MPI_Finalize();
+	double end_time = omp_get_wtime(); //establece el tiempo de finalización
+	printf("Tiempo total de ejecucion %d: %f segundos\n", rank,end_time - start_time);
+	fflush(stdout);
 	return (0);
 }
 
