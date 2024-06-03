@@ -139,25 +139,25 @@ int main(int argc, char** argv) {
     patchWidth = ((w / nHijos) + 7) & ~7; // Redondear al múltiplo de 8 más cercano
     int patchHeight = h / nHijos;
 
-    if (rank == 0) {
+	if (rank == 0) { // Proceso padre
         start_time = omp_get_wtime();
         int hijo = 1;
-        for (int i = 0; i < nHijos; ++i) {
-            int mensaje2[4] = { i * patchWidth, 0, (i + 1) * patchWidth, h };
-            printf("Main:\tenvia a hijo%d start = (%d, %d) / end = (%d, %d)\n", hijo, mensaje2[0], mensaje2[1], mensaje2[2], mensaje2[3]);
+		for (int i = 0; i < nHijos; ++i) { // Enviar los parches de imagen a los hijos
+			int mensaje2[4] = { i * patchWidth, 0, (i + 1) * patchWidth, h }; // start_x, start_y, end_x, end_y = parche de imagen
+            printf("Main:\tenvia a hijo%d start = (%d, %d) / end = (%d, %d)\n", hijo, mensaje2[0], mensaje2[1], mensaje2[2], mensaje2[3]); 
             fflush(stdout);
-            MPI_Send(mensaje2, 4, MPI_INT, hijo, 0, MPI_COMM_WORLD);
+			MPI_Send(mensaje2, 4, MPI_INT, hijo, 0, MPI_COMM_WORLD); // Enviar el parche de imagen al proceso hijo
             ++hijo;
         }
-        int mensaje2[4] = { -1, -1, -1, -1 };
-        for (int i = 1; i <= nHijos; ++i) {
+		int mensaje2[4] = { -1, -1, -1, -1 }; // Fin de la comunicación
+		for (int i = 1; i <= nHijos; ++i) { // Enviar mensaje de fin a los hijos
             MPI_Isend(mensaje2, 4, MPI_INT, i, 0, MPI_COMM_WORLD, &request);
         }
         printf("Main:\tTodos los parches enviados a los hijos.\n");
         fflush(stdout);
 
         // Crear un buffer para la imagen completa
-        int sizeTotal = sizeof(unsigned char) * w * h * 3;
+        int sizeTotal = sizeof(unsigned char) * w * h * 3; 
         unsigned char* img = (unsigned char*)calloc(sizeTotal, 1);
 
         // Recibir las imágenes de todos los hijos
@@ -175,8 +175,8 @@ int main(int argc, char** argv) {
             int patch_y_size = patchHeight;
             for (int y = 0; y < patch_y_size; ++y) {
                 for (int x = 0; x < patch_x_size; ++x) {
-                    for (int c = 0; c < 3; ++c) {
-                        img[((y * w) + (x + (i - 1) * patch_x_size)) * 3 + c] = data[(y * patch_x_size + x) * 3 + c];
+					for (int c = 0; c < 3; ++c) { // R, G, B
+						img[((y * w) + (x + (i - 1) * patch_x_size)) * 3 + c] = data[(y * patch_x_size + x) * 3 + c]; // Copiar los datos de la imagen en el buffer de la imagen completa
                     }
                 }
             }
@@ -190,29 +190,29 @@ int main(int argc, char** argv) {
             free(data);
         }
 
-        end_time = omp_get_wtime();
+		end_time = omp_get_wtime(); // Tiempo total de ejecución
         printf("Main:\tTiempo total de ejecucion: %f segundos\n", end_time - start_time);
 
     }
     else {
-        int mensaje2[4];
+		int mensaje2[4]; // start_x, start_y, end_x, end_y = parche de imagen
         while (1) {
-            MPI_Recv(mensaje2, 4, MPI_INT, 0, 0, MPI_COMM_WORLD, MPI_STATUSES_IGNORE);
+			MPI_Recv(mensaje2, 4, MPI_INT, 0, 0, MPI_COMM_WORLD, MPI_STATUSES_IGNORE); // Recibir el parche de imagen del proceso padre
 
-            if (mensaje2[0] == -1) {
+			if (mensaje2[0] == -1) { // Fin de la comunicación
                 break;
             }
             printf("Hijo %d:\trecivido start = (%d, %d) / end = (%d, %d)\n", rank, mensaje2[0], mensaje2[1], mensaje2[2], mensaje2[3]);
             fflush(stdout);
 
-            start_time_child = omp_get_wtime();
+			start_time_child = omp_get_wtime(); // Tiempo de ejecución del proceso hijo
             printf("Hijo %d:\traytracing start\n", rank);
             fflush(stdout);
-            int patch_x_size = mensaje2[2] - mensaje2[0];
-            int patch_y_size = mensaje2[3] - mensaje2[1];
-            int size = sizeof(unsigned char) * patch_x_size * patch_y_size * 3;
-            unsigned char* data = (unsigned char*)calloc(size, 1);
-            rayTracingCPU(data, w, h, ns, mensaje2[0], mensaje2[1], mensaje2[2], mensaje2[3]);
+			int patch_x_size = mensaje2[2] - mensaje2[0]; // Tamaño del parche de imagen en x
+			int patch_y_size = mensaje2[3] - mensaje2[1]; // Tamaño del parche de imagen en y
+			int size = sizeof(unsigned char) * patch_x_size * patch_y_size * 3; // Tamaño de los datos de la imagen
+			unsigned char* data = (unsigned char*)calloc(size, 1); // Crear un buffer para los datos de la imagen
+			rayTracingCPU(data, w, h, ns, mensaje2[0], mensaje2[1], mensaje2[2], mensaje2[3]); // Generar el parche de imagen
 
             // Generar un nombre de archivo único para cada proceso hijo
             char fileName[32];
@@ -222,7 +222,6 @@ int main(int argc, char** argv) {
             printf("Hijo %d,\tImagen%d creada\n", rank, rank);
             fflush(stdout);
 
-            // Enviar la imagen al proceso padre
             // Enviar el tamaño de los datos al proceso padre
             MPI_Send(&size, 1, MPI_INT, 0, 0, MPI_COMM_WORLD);
             // Enviar los datos al proceso padre
@@ -230,7 +229,7 @@ int main(int argc, char** argv) {
             printf("Hijo %d,\tImagen enviada al padre\n", rank);
             fflush(stdout);
 
-            end_time_child = omp_get_wtime();
+			end_time_child = omp_get_wtime(); // Tiempo de ejecución del proceso hijo
             printf("Hijo %d:\tTiempo de ejecucion: %f segundos\n", rank, end_time_child - start_time_child);
 
             free(data);
