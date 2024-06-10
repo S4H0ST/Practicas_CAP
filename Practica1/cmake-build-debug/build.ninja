@@ -56,6 +56,13 @@ build CMakeFiles/Practica1.dir/main.c.obj: C_COMPILER__Practica1_unscanned_Debug
   OBJECT_DIR = CMakeFiles\Practica1.dir
   OBJECT_FILE_DIR = CMakeFiles\Practica1.dir
 
+build CMakeFiles/Practica1.dir/C_/Users/sohai/OneDrive_-_Universidad_Rey_Juan_Carlos/Documentos/Practicas_CAP/Practica1_2/Practica1_2.c.obj: C_COMPILER__Practica1_unscanned_Debug C$:/Users/sohai/OneDrive$ -$ Universidad$ Rey$ Juan$ Carlos/Documentos/Practicas_CAP/Practica1_2/Practica1_2.c || cmake_object_order_depends_target_Practica1
+  DEP_FILE = CMakeFiles\Practica1.dir\C_\Users\sohai\OneDrive_-_Universidad_Rey_Juan_Carlos\Documentos\Practicas_CAP\Practica1_2\Practica1_2.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  INCLUDES = -isystem "C:/Program Files (x86)/Microsoft SDKs/MPI/Include"
+  OBJECT_DIR = CMakeFiles\Practica1.dir
+  OBJECT_FILE_DIR = CMakeFiles\Practica1.dir\C_\Users\sohai\OneDrive_-_Universidad_Rey_Juan_Carlos\Documentos\Practicas_CAP\Practica1_2
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Practica1
@@ -64,7 +71,7 @@ build CMakeFiles/Practica1.dir/main.c.obj: C_COMPILER__Practica1_unscanned_Debug
 #############################################
 # Link the executable Practica1.exe
 
-build Practica1.exe: C_EXECUTABLE_LINKER__Practica1_Debug CMakeFiles/Practica1.dir/main.c.obj | C$:/Program$ Files$ (x86)/Microsoft$ SDKs/MPI/Lib/x64/msmpi.lib
+build Practica1.exe: C_EXECUTABLE_LINKER__Practica1_Debug CMakeFiles/Practica1.dir/main.c.obj CMakeFiles/Practica1.dir/C_/Users/sohai/OneDrive_-_Universidad_Rey_Juan_Carlos/Documentos/Practicas_CAP/Practica1_2/Practica1_2.c.obj | C$:/Program$ Files$ (x86)/Microsoft$ SDKs/MPI/Lib/x64/msmpi.lib
   FLAGS = -g
   LINK_LIBRARIES = "C:/Program Files (x86)/Microsoft SDKs/MPI/Lib/x64/msmpi.lib"  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Practica1.dir

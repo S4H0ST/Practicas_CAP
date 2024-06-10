@@ -1,5 +1,3 @@
-
-
 #include <stdio.h>
 #include <mpi.h>
 #include <malloc.h>
@@ -8,8 +6,8 @@
 #include <time.h>
 #include <stdbool.h>
 
-#define nLines 8            //Número de filas de los textos cifrados 9
-#define nCharsPerLine 93    //Número de caracteres en cada fila de los textos cifrados 33
+#define nLines 9            //Número de filas de los textos cifrados 9
+#define nCharsPerLine 33    //Número de caracteres en cada fila de los textos cifrados 33
 #define nRotors 5            //Número de rotores de enigma para cifrar y descifrar 2
 
 //int ciphered[nLines][nCharsPerLine] = { //[51][155] 8 rotores
@@ -91,7 +89,7 @@
 //	{67,80,81,84,86,88,131,165,169,179,173,175,199,115,185,207,199,135,209,233,215,232,240,241,239,258,180,264,260,195,251,270,275,266,234,225,276,304,324,315,326,328,348,273,354,347,353,367,358,308,380,370,392,399,409,325,410,417,419,431,423,423,429,447,379,375,453,468,390,460,476,481,489,502,493,503,501,435,529,524,535,463,545,548,539,557,489,485,574,574,500,588,594,597,589,590,607,535,626,618,618,624,639,648,570,654,666,654,672,595,684,677,679,615,693,703,714,704,722,723,719,739,660,730,748,743,680,774,769,780,700,785,775,804,720,809,802,804},
 //	{77,85,94,95,101,97,166,94,183,183,109,197,203,206,198,199,216,144,216,233,237,248,238,252,263,198,202,207,212,217,222,227,232,237,242,247,252,257,262,267,272,277,282,287,292,297,302,307,312,317,322,327,332,337,342,347,352,357,362,367,372,377,382,387,392,397,402,407,412,417,422,427,432,437,442,447,452,457,462,467,472,477,482,487,492,497,502,507,512,517,522,527,532,537,542,547,552,557,562,567,572,577,582,587,592,597,602,607,612,617,622,627,632,637,642,647,652,657,662,667,672,677,682,687,692,697,702,707,712,717,722,727,732,737,742,747,752,757},
 //};
-
+/*
 int ciphered[nLines][nCharsPerLine] = { //[8][93] - 5 rotores
 	{75,76,88,85,98,92,134,158,174,175,169,176,187,197,195,129,218,211,213,149,230,228,248,253,243,261,267,189,259,282,204,281,283,219,296,294,302,239,314,328,339,337,332,269,358,351,353,366,306,299,337,375,392,388,406,329,379,404,426,432,426,359,446,448,457,448,384,454,472,467,404,486,493,505,493,497,434,504,510,528,539,543,464,553,546,548,484,556,559,565,577,587,526},
 	{72,82,87,90,97,93,161,169,174,175,178,188,186,120,195,209,217,140,228,229,232,229,249,242,248,258,256,190,264,276,288,279,227,220,308,309,312,309,329,322,328,338,336,270,359,359,285,359,373,376,378,381,387,404,394,408,335,412,418,427,369,360,405,439,375,450,464,475,473,468,405,488,494,504,497,503,513,511,472,450,522,536,544,554,547,553,563,561,495,573,583,510,599},
@@ -101,8 +99,8 @@ int ciphered[nLines][nCharsPerLine] = { //[8][93] - 5 rotores
 	{90,95,96,103,104,103,171,173,183,179,115,199,195,144,187,212,214,150,239,225,241,246,175,246,264,269,270,267,270,293,284,220,304,300,305,309,327,319,323,260,342,349,357,349,285,369,365,300,389,382,384,320,408,395,412,409,372,350,432,445,432,442,375,450,458,457,479,473,484,488,415,485,503,498,435,520,524,519,539,542,554,482,475,545,485,560,560,573,587,510,580,597,604},
 	{80,80,87,96,97,95,172,170,181,102,186,182,117,194,200,215,221,221,229,241,169,162,233,251,256,257,270,192,276,280,207,289,286,290,300,299,310,320,316,252,322,340,335,272,357,354,360,368,376,385,386,392,389,411,327,397,415,410,347,430,422,446,452,454,442,458,387,475,464,475,476,490,484,491,439,432,502,442,515,537,540,546,556,472,556,558,555,492,581,581,584,581,517},
 	{89,95,96,106,108,104,175,179,106,176,192,188,198,200,213,230,158,151,221,239,166,240,254,265,259,273,265,201,289,283,285,297,296,231,315,311,246,317,335,340,341,354,276,354,364,291,366,380,388,380,389,392,404,331,412,406,424,422,441,426,437,440,459,395,399,404,409,414,419,424,429,434,439,444,449,454,459,464,469,474,479,484,489,494,499,504,509,514,519,524,529,534,539},
-};
-/*int ciphered[nLines][nCharsPerLine] = {
+}; */
+int ciphered[nLines][nCharsPerLine] = { //[9][33] - 5 rotores
         {65, 63, 59, 89,  50,  117, 131, 56,  142, 132, 131, 64,  153,  133, 154, 139, 146, 145, 160, 80,  161, 162, 86,  172, 162, 161, 94,  183, 163, 176, 178, 187, 120},
         {57, 65, 57, 87,  48,  115, 129, 54,  140, 130, 129, 62,  134,  139, 150, 139, 72,  158, 148, 143, 164, 82,  150, 171, 170, 168, 175, 94,  161, 169, 165, 175, 182},
         {53, 57, 53, 125, 128, 46,  132, 122, 121, 54,  123, 137, 136,  130, 76,  66,  152, 142, 141, 74,  152, 151, 151, 154, 168, 86,  172, 162, 157, 178, 96,  164, 182},
@@ -113,7 +111,7 @@ int ciphered[nLines][nCharsPerLine] = { //[8][93] - 5 rotores
         {67, 64, 60, 133, 123, 122, 55,  103, 132, 132, 135, 149, 8252, 152, 71,  128, 140, 161, 146, 153, 95,  85,  157, 168, 173, 93,  179, 169, 172, 184, 103, 183, 180},
         {57, 56, 54, 114, 117, 131, 49,  116, 131, 123, 57,  124, 137,  139, 65,  151, 141, 140, 73,  153, 150, 150, 153, 167, 168, 87,  173, 170, 93,  162, 176, 176, 170}
 };
-*/
+
 void printNumbersAsString(int lines[nLines][nCharsPerLine]) {
     for (int idx = 0; idx < nLines; idx++) {
         char line[nCharsPerLine + 1];
@@ -206,128 +204,84 @@ void enigma() {
 
 //Comando para ejecutar el programa
 //cd cmake-build-debug
+// cmake -DCMAKE_BUILD_TYPE=Release ..
+// MSBuild Practica1.sln /p:Configuration=Release
 //mpiexec -n 4 .\main.exe
 //mpiexec -help2
-
-int main(int argc, char **argv) {
-    clock_t start, end; // Se declaran las variables para medir el tiempo de ejecución
-    double cpu_time_used; // Se declara la variable para almacenar el tiempo de ejecución
-    int nProcesses, rank; // Se declaran las variables para almacenar el número de procesos y el rango de cada proceso
-    int nKeys = (int) pow(10, nRotors); // Se calcula el número de claves posibles
+int main(int argc, char** argv) {
+    clock_t start, end;
+    double cpu_time_used;
+    int nProcesses, rank;
+    int nKeys = (int)pow(10, nRotors);
     MPI_Status status;
 
-    int nextLines;
-    //INITIALIZING MPI
-    start = clock(); // Se registra el tiempo de inicio
     MPI_Init(&argc, &argv);
     MPI_Comm_rank(MPI_COMM_WORLD, &rank);
     MPI_Comm_size(MPI_COMM_WORLD, &nProcesses);
 
-    int linesPerSlave = nLines / (nProcesses - 1); //Hay que asegurarnos de que no queden lineas sin esclavo
-
-    if (rank == 0) { // proceso padre / proceso maestro
-        printf("Number of slave processes:\t%d\n", nProcesses - 1);
+    if (rank == 0) {
+        printf("Numero de procesos esclavos:\t%d\n", nProcesses - 1);
         fflush(stdout);
 
-        printf("Father initialized. Starting deciphering\n\n");
+        printf("Padre inicializado. Comenzando a descifrar\n\n");
         fflush(stdout);
 
-        //proceso maestro envia las lineas a los procesos esclavos
+        // Send data to slave processes
         for (int i = 1; i < nProcesses; ++i) {
-            printf("Sending lines to process %d\n", i);
+            printf("Enviando lineas al proceso: %d\n", i);
             fflush(stdout);
-
-            nextLines = (i-1) * linesPerSlave;
-            MPI_Send(&nextLines, 1, MPI_INT, i, 0, MPI_COMM_WORLD);
-
-            if(i != nProcesses - 1){
-                printf("Assigned %d lines and sent to process: %d\n", linesPerSlave, i); //Asegurarse de que son el numero de lineas correcto
-                fflush(stdout);
-            }else{
-                printf("Assigned %d lines and sent to process: %d\n", nLines - nextLines, i); //Asegurarse de que son el numero de lineas correcto
-                fflush(stdout);
-            }
-
+            MPI_Send(&ciphered, nLines * nCharsPerLine, MPI_INT, i, 0, MPI_COMM_WORLD);
         }
 
-        //proceso maestro recibe la respuesta de los procesos esclavos
-        printf("Waiting for processes to decipher lines\n");
-        fflush(stdout);
-
-        int decipheredText[nLines][nCharsPerLine]; //matriz para almacenar las lineas descifradas
-        int decipheredLineAux[nCharsPerLine];//linea auxiliar para recibir las lineas descifradas
-        int conditionAux = linesPerSlave;//condicion para recibir las lineas descifradas que es que tenga el numero de lineas que le corresponde por esclavo
-        for(int i=1; i < nProcesses; i++){ //recibir las lineas descifradas
-            if(i == nProcesses - 1){ //Si es el ultimo proceso, se asegura de recibir todas las lineas que le corresponden
-                conditionAux = nLines - (i-1)*linesPerSlave;
-            }
-            for(int j=0; j<conditionAux; j++){//recibir las lineas descifradas
-                MPI_Recv(&decipheredLineAux, nCharsPerLine, MPI_INT, i, 0, MPI_COMM_WORLD, &status);
-                for(int k=0; k<nCharsPerLine; k++){ //almacenar las lineas descifradas
-                    decipheredText[(i-1)*linesPerSlave + j][k] = decipheredLineAux[k];
-                }
-            }
+        // Receive deciphered lines from slaves
+        int decipheredText[nLines][nCharsPerLine];
+        for (int i = 0; i < nLines; ++i) {
+            MPI_Recv(&decipheredText[i], nCharsPerLine, MPI_INT, MPI_ANY_SOURCE, 0, MPI_COMM_WORLD, &status);
         }
-        printf("\n");
-        printf("Deciphered lines received. Printing deciphered text: \n");
-        printf("\n");
-        fflush(stdout);
 
-        for(int i=0; i<nLines; i++){ //imprimir las lineas descifradas
-            for(int j=0; j<nCharsPerLine; j++){
+        printf("\nLineas descifradas recibidas. Imprimiendo texto descifrado: \n\n");
+        for (int i = 0; i < nLines; i++) {
+            for (int j = 0; j < nCharsPerLine; j++) {
                 printf("%c", decipheredText[i][j]);
             }
             printf("\n");
         }
-        end = clock(); // Se registra el tiempo de finalización
-        cpu_time_used = (double) ((double) (end - start)) / CLOCKS_PER_SEC; // Se calcula el tiempo transcurrido en segundos
-        printf("\n");
-        printf("Tiempo de ejecucion: %f segundos\n", cpu_time_used); // Se imprime el tiempo transcurrido
-        printf("\n");
 
-    } else {//proceso hijo / proceso esclavo
-         MPI_Recv(&nextLines, 1, MPI_INT, 0, 0, MPI_COMM_WORLD, MPI_STATUS_IGNORE); //recibir las lineas que le corresponden
+        end = clock();
+        cpu_time_used = (double)((double)(end - start)) / CLOCKS_PER_SEC;
+        printf("\nTiempo de ejecucion: %f segundos\n", cpu_time_used);
 
-        printf("\nSlave %d\n\n", rank);//proceso esclavo
+    }
+    else {
+        printf("\nEsclavo %d inicializado\n", rank);
         fflush(stdout);
 
-        //Si es el ultimo proceso, se asegura de que reciba todas las lineas que le corresponden
-        int condition;
-        if (rank == nProcesses -1){
-            condition = nLines;
-        }else{
-            condition = nextLines + linesPerSlave;
-        }
-         //decifrar las lineas
-        for (int i = nextLines; i < condition; i++) {
-            printf("Starting deciphering line %d in process: %d\n", i, rank);
-            fflush(stdout);
+        int receivedCiphered[nLines][nCharsPerLine];
+        MPI_Recv(&receivedCiphered, nLines * nCharsPerLine, MPI_INT, 0, 0, MPI_COMM_WORLD, &status);
+
+        for (int i = rank - 1; i < nLines; i += nProcesses - 1) {
             for (int j = 0; j < nKeys; j++) {
-
-                int *decipheredLine = decipher(ciphered[i],j); //decifrar la linea
-
-            char decipheredLineToChar[nCharsPerLine];//convertir la linea descifrada a array de char
-                for(int r=0; r<nCharsPerLine; r++) {
-                    decipheredLineToChar[r] = decipheredLine[r];//almacenar la linea descifrada para luego poder hacer la comparacion y enviarlo
+                int* decipheredLine = decipher(receivedCiphered[i], j, nRotors, nCharsPerLine);
+                char decipheredLineToChar[nCharsPerLine];
+                for (int r = 0; r < nCharsPerLine; r++) {
+                    decipheredLineToChar[r] = decipheredLine[r];
                 }
 
-                char stringKey[1]; //convertir la clave int en string
-                sprintf( stringKey, "%d", j);
+                char stringKey[nRotors + 1];
+                sprintf(stringKey, "%0*d", nRotors, j);
 
-
-                if (!strncmp(stringKey, decipheredLineToChar, nRotors)) {//comparar la clave con la linea descifrada (los primeros nRotors caracteres)
-
-                    printf("Line %d deciphered in slave %d  with key %d. Sending deciphered line back to father process\n", i, rank, j);
-                    fflush(stdout);
-
-                    MPI_Send(decipheredLine, nCharsPerLine, MPI_INT, 0, 0, MPI_COMM_WORLD); //enviar la linea descifrada al proceso padre
+                if (!strncmp(stringKey, decipheredLineToChar, nRotors)) {
+                    MPI_Send(decipheredLine, nCharsPerLine, MPI_INT, 0, 0, MPI_COMM_WORLD);
+                    free(decipheredLine);
                     break;
                 }
+                free(decipheredLine);
             }
         }
-        printf("Lines deciphered in slave %d. Closing slave\n\n", rank);
+        printf("Lineas descifradas en esclavo %d. Cerrando esclavo\n\n", rank);
         fflush(stdout);
     }
-    MPI_Finalize();//finalizar MPI
+
+    MPI_Finalize();
     return 0;
 }

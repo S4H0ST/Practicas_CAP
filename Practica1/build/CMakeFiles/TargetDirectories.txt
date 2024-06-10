@@ -1,0 +1,3 @@
+C:/Users/sohai/OneDrive - Universidad Rey Juan Carlos/Documentos/Practicas_CAP/Practica1/build/CMakeFiles/Practica1.dir
+C:/Users/sohai/OneDrive - Universidad Rey Juan Carlos/Documentos/Practicas_CAP/Practica1/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/sohai/OneDrive - Universidad Rey Juan Carlos/Documentos/Practicas_CAP/Practica1/build/CMakeFiles/ZERO_CHECK.dir

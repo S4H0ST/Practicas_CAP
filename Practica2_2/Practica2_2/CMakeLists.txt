@@ -4,6 +4,9 @@ cmake_minimum_required (VERSION 3.8)
 project ("Practica2_2")
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "${CMAKE_CURRENT_SOURCE_DIR}/out/build")
 # Agregue un origen al ejecutable de este proyecto.
+if(NOT CMAKE_BUILD_TYPE MATCHES Debug)
+  add_compile_options(-O2)
+endif()
 add_executable (Practica2_2 "Practica2_2.cpp" 
         "Original/Crystalline.cpp"
         "Original/Metallic.cpp"

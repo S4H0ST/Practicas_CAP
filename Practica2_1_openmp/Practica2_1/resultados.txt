@@ -1,0 +1,4 @@
+Sin optimizacion: Tiempo total de ejecucion: 247.173882 segundos
+Con optimizacion: Tiempo total de ejecucion: 19.733000 segundos
+
+8 hilos
