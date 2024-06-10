@@ -1,30 +1,450 @@
+Practica 2	1	100	205.718290 seg.
+Practica 2	1	12	22122567 seg.
+Practica 2	1	4	5.929600 seg.
+Practica 2	1	2	 2.180380 seg.
+
+Optimizado 4 procesos
+----------------------
 mpiexec -n 4 .\Practica2.exe
 Enviamos currentFrame: 1 y un numero random: 41 al hijo 1
+Recibido frame numero: 1 en el hijo: 1
+Recibido random: 41 en el hijo: 1
+Hijo 1: calculando frame 1
 Enviado mensaje al proceso 1
 Enviamos currentFrame: 2 y un numero random: 45 al hijo 2
 Enviado mensaje al proceso 2
 Enviamos currentFrame: 3 y un numero random: 48 al hijo 3
-Recibido frame numero: 1 en el hijo: 1
-Recibido random: 41 en el hijo: 1
 Enviado mensaje al proceso 3
 Se han enviado todos los frames, esperando a ser resueltos
 Recibido frame numero: 2 en el hijo: 2
 Recibido random: 45 en el hijo: 2
-Hijo 1: calculando frame 1
+Recibido frame numero: 3 en el hijo: 3
+Recibido random: 48 en el hijo: 3
 Hijo 2: calculando frame 2
+Hijo 3: calculando frame 3
+Hijo 1, Tiempo de ejecucion: 5.794199 segundos
+Hijo 1, Imagen1 creada
+Recibido mensaje de finalizado del hijo: 1
+Hijo 2, Tiempo de ejecucion: 5.905438 segundos
+Hijo 2, Imagen2 creada
+Recibido mensaje de finalizado del hijo: 2
+Hijo 3, Tiempo de ejecucion: 5.895416 segundos
+Hijo 3, Imagen3 creada
+Recibido mensaje de finalizado del hijo: 3
+Hijo 2, Finaliza
+Hijo 3, Finaliza
+Hijo 1, Finaliza
+Padre, Tiempo total de ejecucion: 5.929600 segundos
+
+Optimizado 2 procesos 
+----------------------
+Enviamos currentFrame: 1 y un numero random: 41 al hijo 1
+Enviado mensaje al proceso 1
+Se han enviado todos los frames, esperando a ser resueltos
+Recibido frame numero: 1 en el hijo: 1
+Recibido random: 41 en el hijo: 1
+Hijo 1: calculando frame 1
+Hijo 1, Tiempo de ejecucion: 2.178980 segundos
+Hijo 1, Imagen1 creada
+Recibido mensaje de finalizado del hijo: 1
+Padre, Tiempo total de ejecucion: 2.180380 segundos
+Hijo 1, Finaliza
+
+Optimizado 12 proceso
+----------------------
+Enviamos currentFrame: 1 y un numero random: 41 al hijo 1
+Enviado mensaje al proceso 1
+Enviamos currentFrame: 2 y un numero random: 45 al hijo 2
+Recibido frame numero: 1 en el hijo: 1
+Recibido random: 41 en el hijo: 1
+Enviado mensaje al proceso 2
+Enviamos currentFrame: 3 y un numero random: 48 al hijo 3
+Hijo 1: calculando frame 1
+Recibido frame numero: 2 en el hijo: 2
+Recibido random: 45 en el hijo: 2
+Hijo 2: calculando frame 2
+Enviado mensaje al proceso 3
+Enviamos currentFrame: 4 y un numero random: 51 al hijo 4
+Enviado mensaje al proceso 4
+Enviamos currentFrame: 5 y un numero random: 54 al hijo 5
 Recibido frame numero: 3 en el hijo: 3
 Recibido random: 48 en el hijo: 3
 Hijo 3: calculando frame 3
-Hijo 3, Time taken for rayTracingCPU: 81.994419 seconds
-Hijo 3, Imagen3 creada
-Recibido mensaje de finalizado del hijo: 3
-Hijo 2, Time taken for rayTracingCPU: 82.842457 seconds
-Hijo 2, Imagen2 creada
-Recibido mensaje de finalizado del hijo: 2
-Hijo 1, Time taken for rayTracingCPU: 83.651067 seconds
+Enviado mensaje al proceso 5
+Enviamos currentFrame: 6 y un numero random: 58 al hijo 6
+Recibido frame numero: 4 en el hijo: 4
+Recibido random: 51 en el hijo: 4
+Hijo 4: calculando frame 4
+Enviado mensaje al proceso 6
+Enviamos currentFrame: 7 y un numero random: 61 al hijo 7
+Recibido frame numero: 5 en el hijo: 5
+Recibido random: 54 en el hijo: 5
+Hijo 5: calculando frame 5
+Recibido frame numero: 6 en el hijo: 6
+Recibido random: 58 en el hijo: 6
+Hijo 6: calculando frame 6
+Enviado mensaje al proceso 7
+Enviamos currentFrame: 8 y un numero random: 64 al hijo 8
+Recibido frame numero: 7 en el hijo: 7
+Recibido random: 61 en el hijo: 7
+Hijo 7: calculando frame 7
+Enviado mensaje al proceso 8
+Enviamos currentFrame: 9 y un numero random: 68 al hijo 9
+Enviado mensaje al proceso 9
+Enviamos currentFrame: 10 y un numero random: 71 al hijo 10
+Recibido frame numero: 8 en el hijo: 8
+Recibido random: 64 en el hijo: 8
+Enviado mensaje al proceso 10
+Enviamos currentFrame: 11 y un numero random: 74 al hijo 11
+Hijo 8: calculando frame 8
+Recibido frame numero: 9 en el hijo: 9
+Recibido random: 68 en el hijo: 9
+Hijo 9: calculando frame 9
+Recibido frame numero: 10 en el hijo: 10
+Recibido random: 71 en el hijo: 10
+Hijo 10:        calculando frame 10
+Enviado mensaje al proceso 11
+Se han enviado todos los frames, esperando a ser resueltos
+Recibido frame numero: 11 en el hijo: 11
+Recibido random: 74 en el hijo: 11
+Hijo 11:        calculando frame 11
+Hijo 1, Tiempo de ejecucion: 19.923959 segundos
 Hijo 1, Imagen1 creada
 Recibido mensaje de finalizado del hijo: 1
-Total time taken by master process: 83.652657 seconds
+Hijo 4, Tiempo de ejecucion: 20.546498 segundos
+Hijo 4, Imagen4 creada
+Recibido mensaje de finalizado del hijo: 4
+Hijo 2, Tiempo de ejecucion: 21.138006 segundos
+Hijo 2, Imagen2 creada
+Hijo 5, Tiempo de ejecucion: 21.018962 segundos
+Hijo 5, Imagen5 creada
+Hijo 6, Tiempo de ejecucion: 21.036185 segundos
+Hijo 6, Imagen6 creada
+Recibido mensaje de finalizado del hijo: 2
+Recibido mensaje de finalizado del hijo: 5
+Recibido mensaje de finalizado del hijo: 6
+Hijo 3, Tiempo de ejecucion: 21.318600 segundos
+Hijo 3, Imagen3 creada
+Recibido mensaje de finalizado del hijo: 3
+Hijo 7, Tiempo de ejecucion: 20.847808 segundos
+Hijo 7, Imagen7 creada
+Recibido mensaje de finalizado del hijo: 7
+Hijo 10,        Tiempo de ejecucion: 19.830519 segundos
+Hijo 10,        Imagen10 creada
+Recibido mensaje de finalizado del hijo: 10
+Hijo 8, Tiempo de ejecucion: 20.533728 segundos
+Hijo 8, Imagen8 creada
+Recibido mensaje de finalizado del hijo: 8
+Hijo 9, Tiempo de ejecucion: 20.263953 segundos
+Hijo 9, Imagen9 creada
+Recibido mensaje de finalizado del hijo: 9
+Hijo 11,        Tiempo de ejecucion: 19.576194 segundos
+Hijo 11,        Imagen11 creada
+Recibido mensaje de finalizado del hijo: 11
 Hijo 1, Finaliza
+Hijo 11,        Finaliza
+Hijo 9, Finaliza
 Hijo 2, Finaliza
 Hijo 3, Finaliza
+Hijo 7, Finaliza
+Padre, Tiempo total de ejecucion: 22.122567 segundos
+Hijo 6, Finaliza
+Hijo 4, Finaliza
+Hijo 10,        Finaliza
+Hijo 8, Finaliza
+Hijo 5, Finaliza
+
+optimizado 100 procesos
+----------------------
+Hijo 6, Tiempo de ejecucion: 170.176320 segundos
+Hijo 6, Imagen6 creada
+Hijo 1, Tiempo de ejecucion: 181.555463 segundos
+Hijo 1, Imagen1 creada
+Recibido mensaje de finalizado del hijo: 6
+Hijo 7, Tiempo de ejecucion: 187.719235 segundos
+Hijo 7, Imagen7 creada
+Hijo 2, Tiempo de ejecucion: 188.242874 segundos
+Hijo 2, Imagen2 creada
+Hijo 15,        Tiempo de ejecucion: 187.016964 segundos
+Hijo 15,        Imagen15 creada
+Recibido mensaje de finalizado del hijo: 1
+Hijo 4, Tiempo de ejecucion: 189.365653 segundos
+Hijo 4, Imagen4 creada
+Hijo 3, Tiempo de ejecucion: 190.450303 segundos
+Hijo 3, Imagen3 creada
+Hijo 10,        Tiempo de ejecucion: 191.082019 segundos
+Hijo 10,        Imagen10 creada
+Recibido mensaje de finalizado del hijo: 15
+Recibido mensaje de finalizado del hijo: 7
+Recibido mensaje de finalizado del hijo: 2
+Recibido mensaje de finalizado del hijo: 3
+Recibido mensaje de finalizado del hijo: 4
+Hijo 5, Tiempo de ejecucion: 194.501948 segundos
+Hijo 5, Imagen5 creada
+Hijo 13,        Tiempo de ejecucion: 194.702911 segundos
+Hijo 13,        Imagen13 creada
+Recibido mensaje de finalizado del hijo: 10
+Hijo 19,        Tiempo de ejecucion: 192.472367 segundos
+Hijo 19,        Imagen19 creada
+Hijo 8, Tiempo de ejecucion: 196.556887 segundos
+Hijo 8, Imagen8 creada
+Hijo 12,        Tiempo de ejecucion: 196.573244 segundos
+Hijo 12,        Imagen12 creada
+Recibido mensaje de finalizado del hijo: 19
+Recibido mensaje de finalizado del hijo: 5
+Recibido mensaje de finalizado del hijo: 13
+Recibido mensaje de finalizado del hijo: 8
+Recibido mensaje de finalizado del hijo: 12
+Hijo 88,        Tiempo de ejecucion: 191.244530 segundos
+Hijo 88,        Imagen88 creada
+Hijo 90,        Tiempo de ejecucion: 191.326569 segundos
+Hijo 90,        Imagen90 creada
+Hijo 92,        Tiempo de ejecucion: 193.568921 segundos
+Hijo 92,        Imagen92 creada
+Hijo 29,        Tiempo de ejecucion: 192.170435 segundos
+Hijo 29,        Imagen29 creada
+Hijo 63,        Tiempo de ejecucion: 191.934244 segundos
+Hijo 63,        Imagen63 creada
+Hijo 11,        Tiempo de ejecucion: 199.141033 segundos
+Hijo 11,        Imagen11 creada
+Hijo 96,        Tiempo de ejecucion: 191.946492 segundos
+Hijo 96,        Imagen96 creada
+Hijo 83,        Tiempo de ejecucion: 192.156265 segundos
+Hijo 83,        Imagen83 creada
+Hijo 26,        Tiempo de ejecucion: 192.885768 segundos
+Hijo 26,        Imagen26 creada
+Recibido mensaje de finalizado del hijo: 11
+Recibido mensaje de finalizado del hijo: 88
+Recibido mensaje de finalizado del hijo: 96
+Recibido mensaje de finalizado del hijo: 90
+Recibido mensaje de finalizado del hijo: 92
+Recibido mensaje de finalizado del hijo: 29
+Hijo 67,        Tiempo de ejecucion: 192.855662 segundos
+Hijo 67,        Imagen67 creada
+Hijo 57,        Tiempo de ejecucion: 193.113297 segundos
+Hijo 57,        Imagen57 creada
+Hijo 18,        Tiempo de ejecucion: 197.282270 segundos
+Hijo 18,        Imagen18 creada
+Hijo 31,        Tiempo de ejecucion: 193.136556 segundos
+Hijo 31,        Imagen31 creada
+Hijo 99,        Tiempo de ejecucion: 192.156765 segundos
+Hijo 99,        Imagen99 creada
+Hijo 86,        Tiempo de ejecucion: 192.920238 segundos
+Hijo 86,        Imagen86 creada
+Hijo 60,        Tiempo de ejecucion: 193.441312 segundos
+Hijo 60,        Imagen60 creada
+Recibido mensaje de finalizado del hijo: 63
+Hijo 56,        Tiempo de ejecucion: 193.794563 segundos
+Hijo 56,        Imagen56 creada
+Recibido mensaje de finalizado del hijo: 83
+Hijo 44,        Tiempo de ejecucion: 193.993255 segundos
+Hijo 44,        Imagen44 creada
+Hijo 48,        Tiempo de ejecucion: 194.036370 segundos
+Hijo 48,        Imagen48 creada
+Recibido mensaje de finalizado del hijo: 26
+Hijo 54,        Tiempo de ejecucion: 195.941144 segundos
+Hijo 54,        Imagen54 creada
+Hijo 30,        Tiempo de ejecucion: 194.516367 segundos
+Hijo 30,        Imagen30 creada
+Hijo 71,        Tiempo de ejecucion: 194.306387 segundos
+Hijo 71,        Imagen71 creada
+Hijo 9, Tiempo de ejecucion: 201.525822 segundos
+Hijo 9, Imagen9 creada
+Hijo 82,        Tiempo de ejecucion: 194.364233 segundos
+Hijo 82,        Imagen82 creada
+Hijo 95,        Tiempo de ejecucion: 195.656582 segundos
+Hijo 95,        Imagen95 creada
+Recibido mensaje de finalizado del hijo: 67
+Recibido mensaje de finalizado del hijo: 57
+Recibido mensaje de finalizado del hijo: 18
+Recibido mensaje de finalizado del hijo: 31
+Recibido mensaje de finalizado del hijo: 86
+Recibido mensaje de finalizado del hijo: 99
+Recibido mensaje de finalizado del hijo: 60
+Hijo 72,        Tiempo de ejecucion: 194.751285 segundos
+Hijo 72,        Imagen72 creada
+Hijo 77,        Tiempo de ejecucion: 194.770025 segundos
+Hijo 77,        Imagen77 creada
+Hijo 33,        Tiempo de ejecucion: 196.784530 segundos
+Hijo 33,        Imagen33 creada
+Hijo 97,        Tiempo de ejecucion: 196.701850 segundos
+Hijo 97,        Imagen97 creada
+Hijo 25,        Tiempo de ejecucion: 195.392297 segundos
+Hijo 25,        Imagen25 creada
+Recibido mensaje de finalizado del hijo: 56
+Recibido mensaje de finalizado del hijo: 71
+Hijo 16,        Tiempo de ejecucion: 200.178521 segundos
+Hijo 16,        Imagen16 creada
+Recibido mensaje de finalizado del hijo: 44
+Recibido mensaje de finalizado del hijo: 48
+Hijo 46,        Tiempo de ejecucion: 195.298124 segundos
+Hijo 46,        Imagen46 creada
+Hijo 78,        Tiempo de ejecucion: 195.034418 segundos
+Hijo 78,        Imagen78 creada
+Hijo 53,        Tiempo de ejecucion: 195.226026 segundos
+Hijo 53,        Imagen53 creada
+Hijo 20,        Tiempo de ejecucion: 197.753564 segundos
+Hijo 20,        Imagen20 creada
+Recibido mensaje de finalizado del hijo: 54
+Recibido mensaje de finalizado del hijo: 30
+Recibido mensaje de finalizado del hijo: 9
+Recibido mensaje de finalizado del hijo: 16
+Recibido mensaje de finalizado del hijo: 82
+Recibido mensaje de finalizado del hijo: 95
+Recibido mensaje de finalizado del hijo: 78
+Recibido mensaje de finalizado del hijo: 46
+Hijo 45,        Tiempo de ejecucion: 195.856702 segundos
+Hijo 45,        Imagen45 creada
+Hijo 84,        Tiempo de ejecucion: 195.530967 segundos
+Hijo 84,        Imagen84 creada
+Recibido mensaje de finalizado del hijo: 72
+Hijo 69,        Tiempo de ejecucion: 195.802527 segundos
+Hijo 69,        Imagen69 creada
+Recibido mensaje de finalizado del hijo: 77
+Recibido mensaje de finalizado del hijo: 97
+Recibido mensaje de finalizado del hijo: 33
+Hijo 37,        Tiempo de ejecucion: 196.307880 segundos
+Hijo 37,        Imagen37 creada
+Hijo 27,        Tiempo de ejecucion: 196.435792 segundos
+Hijo 27,        Imagen27 creada
+Recibido mensaje de finalizado del hijo: 25
+Recibido mensaje de finalizado del hijo: 53
+Hijo 65,        Tiempo de ejecucion: 196.216403 segundos
+Hijo 65,        Imagen65 creada
+Recibido mensaje de finalizado del hijo: 20
+Hijo 17,        Tiempo de ejecucion: 201.396437 segundos
+Hijo 17,        Imagen17 creada
+Hijo 43,        Tiempo de ejecucion: 198.288682 segundos
+Hijo 43,        Imagen43 creada
+Hijo 40,        Tiempo de ejecucion: 196.656665 segundos
+Hijo 40,        Imagen40 creada
+Hijo 28,        Tiempo de ejecucion: 196.793056 segundos
+Hijo 28,        Imagen28 creada
+Hijo 81,        Tiempo de ejecucion: 196.306329 segundos
+Hijo 81,        Imagen81 creada
+Hijo 62,        Tiempo de ejecucion: 198.353453 segundos
+Hijo 62,        Imagen62 creada
+Recibido mensaje de finalizado del hijo: 45
+Recibido mensaje de finalizado del hijo: 84
+Hijo 64,        Tiempo de ejecucion: 196.627602 segundos
+Hijo 64,        Imagen64 creada
+Hijo 23,        Tiempo de ejecucion: 197.099164 segundos
+Hijo 23,        Imagen23 creada
+Recibido mensaje de finalizado del hijo: 69
+Hijo 55,        Tiempo de ejecucion: 196.791737 segundos
+Hijo 55,        Imagen55 creada
+Hijo 22,        Tiempo de ejecucion: 197.167274 segundos
+Hijo 22,        Imagen22 creada
+Hijo 89,        Tiempo de ejecucion: 196.531635 segundos
+Hijo 89,        Imagen89 creada
+Recibido mensaje de finalizado del hijo: 37
+Recibido mensaje de finalizado del hijo: 27
+Hijo 14,        Tiempo de ejecucion: 203.387745 segundos
+Hijo 14,        Imagen14 creada
+Hijo 36,        Tiempo de ejecucion: 197.167793 segundos
+Hijo 36,        Imagen36 creada
+Recibido mensaje de finalizado del hijo: 65
+Hijo 66,        Tiempo de ejecucion: 196.981539 segundos
+Hijo 66,        Imagen66 creada
+Hijo 58,        Tiempo de ejecucion: 197.044481 segundos
+Hijo 58,        Imagen58 creada
+Recibido mensaje de finalizado del hijo: 17
+Recibido mensaje de finalizado del hijo: 40
+Recibido mensaje de finalizado del hijo: 43
+Recibido mensaje de finalizado del hijo: 28
+Hijo 80,        Tiempo de ejecucion: 197.004049 segundos
+Hijo 80,        Imagen80 creada
+Recibido mensaje de finalizado del hijo: 81
+Hijo 34,        Tiempo de ejecucion: 197.417703 segundos
+Hijo 34,        Imagen34 creada
+Recibido mensaje de finalizado del hijo: 62
+Hijo 32,        Tiempo de ejecucion: 199.034566 segundos
+Hijo 32,        Imagen32 creada
+Hijo 75,        Tiempo de ejecucion: 197.084158 segundos
+Hijo 75,        Imagen75 creada
+Recibido mensaje de finalizado del hijo: 64
+Hijo 91,        Tiempo de ejecucion: 196.957320 segundos
+Hijo 91,        Imagen91 creada
+Hijo 79,        Tiempo de ejecucion: 197.139252 segundos
+Hijo 79,        Imagen79 creada
+Recibido mensaje de finalizado del hijo: 23
+Recibido mensaje de finalizado del hijo: 55
+Hijo 50,        Tiempo de ejecucion: 197.412981 segundos
+Hijo 50,        Imagen50 creada
+Recibido mensaje de finalizado del hijo: 22
+Recibido mensaje de finalizado del hijo: 89
+Recibido mensaje de finalizado del hijo: 14
+Recibido mensaje de finalizado del hijo: 36
+Hijo 38,        Tiempo de ejecucion: 197.632326 segundos
+Hijo 38,        Imagen38 creada
+Recibido mensaje de finalizado del hijo: 66
+Recibido mensaje de finalizado del hijo: 58
+Recibido mensaje de finalizado del hijo: 79
+Hijo 85,        Tiempo de ejecucion: 197.323476 segundos
+Hijo 85,        Imagen85 creada
+Hijo 39,        Tiempo de ejecucion: 197.757896 segundos
+Hijo 39,        Imagen39 creada
+Hijo 47,        Tiempo de ejecucion: 197.715411 segundos
+Hijo 47,        Imagen47 creada
+Recibido mensaje de finalizado del hijo: 80
+Recibido mensaje de finalizado del hijo: 34
+Recibido mensaje de finalizado del hijo: 32
+Recibido mensaje de finalizado del hijo: 75
+Recibido mensaje de finalizado del hijo: 91
+Hijo 35,        Tiempo de ejecucion: 197.948395 segundos
+Hijo 35,        Imagen35 creada
+Recibido mensaje de finalizado del hijo: 50
+Hijo 94,        Tiempo de ejecucion: 198.826778 segundos
+Hijo 94,        Imagen94 creada
+Hijo 74,        Tiempo de ejecucion: 197.710904 segundos
+Hijo 74,        Imagen74 creada
+Recibido mensaje de finalizado del hijo: 38
+Hijo 87,        Tiempo de ejecucion: 197.615314 segundos
+Hijo 87,        Imagen87 creada
+Hijo 24,        Tiempo de ejecucion: 198.233972 segundos
+Hijo 24,        Imagen24 creada
+Recibido mensaje de finalizado del hijo: 85
+Hijo 68,        Tiempo de ejecucion: 197.822069 segundos
+Hijo 68,        Imagen68 creada
+Recibido mensaje de finalizado del hijo: 39
+Recibido mensaje de finalizado del hijo: 47
+Hijo 93,        Tiempo de ejecucion: 198.965588 segundos
+Hijo 93,        Imagen93 creada
+Hijo 76,        Tiempo de ejecucion: 198.035731 segundos
+Hijo 76,        Imagen76 creada
+Hijo 52,        Tiempo de ejecucion: 198.244371 segundos
+Hijo 52,        Imagen52 creada
+Hijo 98,        Tiempo de ejecucion: 197.386195 segundos
+Hijo 98,        Imagen98 creada
+Hijo 42,        Tiempo de ejecucion: 198.370239 segundos
+Hijo 42,        Imagen42 creada
+Hijo 51,        Tiempo de ejecucion: 198.341109 segundos
+Hijo 51,        Imagen51 creada
+Hijo 73,        Tiempo de ejecucion: 198.157179 segundos
+Hijo 73,        Imagen73 creada
+Hijo 21,        Tiempo de ejecucion: 199.434541 segundos
+Hijo 21,        Imagen21 creada
+Hijo 59,        Tiempo de ejecucion: 200.112350 segundos
+Hijo 59,        Imagen59 creada
+Recibido mensaje de finalizado del hijo: 42
+Recibido mensaje de finalizado del hijo: 76
+Recibido mensaje de finalizado del hijo: 52
+Recibido mensaje de finalizado del hijo: 98
+Recibido mensaje de finalizado del hijo: 21
+Recibido mensaje de finalizado del hijo: 51
+Recibido mensaje de finalizado del hijo: 73
+Hijo 41,        Tiempo de ejecucion: 198.476261 segundos
+Hijo 41,        Imagen41 creada
+Recibido mensaje de finalizado del hijo: 59
+Recibido mensaje de finalizado del hijo: 41
+Hijo 70,        Tiempo de ejecucion: 198.281220 segundos
+Hijo 70,        Imagen70 creada
+Recibido mensaje de finalizado del hijo: 70
+Hijo 49,        Tiempo de ejecucion: 198.589929 segundos
+Hijo 49,        Imagen49 creada
+Recibido mensaje de finalizado del hijo: 49
+Hijo 61,        Tiempo de ejecucion: 198.480753 segundos
+Hijo 61,        Imagen61 creada
+Recibido mensaje de finalizado del hijo: 61
+Hijo 3, Finaliza
+Padre, Tiempo total de ejecucion: 205.718290 segundos

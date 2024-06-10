@@ -2,7 +2,7 @@
 
 #include <cstdlib>
 
-inline float random() {
+float random() {
 	return rand() / (RAND_MAX + 1.0f);
 }
 

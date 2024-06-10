@@ -24,7 +24,7 @@ events:
       The output was:
       0
       Versión de MSBuild 17.9.8+b34f75857 para .NET Framework
-      Compilación iniciada a las 10/06/2024 20:14:46.
+      Compilación iniciada a las 10/06/2024 22:16:03.
       
       Proyecto "C:\\Users\\sohai\\OneDrive - Universidad Rey Juan Carlos\\Documentos\\Practicas_CAP\\Practica2\\build\\CMakeFiles\\3.28.0-msvc1\\CompilerIdC\\CompilerIdC.vcxproj" en nodo 1 (destinos predeterminados).
       PrepareForBuild:
@@ -53,7 +53,7 @@ events:
           0 Advertencia(s)
           0 Errores
       
-      Tiempo transcurrido 00:00:01.09
+      Tiempo transcurrido 00:00:00.84
       
       
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
@@ -79,7 +79,7 @@ events:
       The output was:
       0
       Versión de MSBuild 17.9.8+b34f75857 para .NET Framework
-      Compilación iniciada a las 10/06/2024 20:14:47.
+      Compilación iniciada a las 10/06/2024 22:16:05.
       
       Proyecto "C:\\Users\\sohai\\OneDrive - Universidad Rey Juan Carlos\\Documentos\\Practicas_CAP\\Practica2\\build\\CMakeFiles\\3.28.0-msvc1\\CompilerIdCXX\\CompilerIdCXX.vcxproj" en nodo 1 (destinos predeterminados).
       PrepareForBuild:
@@ -108,7 +108,7 @@ events:
           0 Advertencia(s)
           0 Errores
       
-      Tiempo transcurrido 00:00:00.84
+      Tiempo transcurrido 00:00:00.76
       
       
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
@@ -127,8 +127,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "C:/Users/sohai/OneDrive - Universidad Rey Juan Carlos/Documentos/Practicas_CAP/Practica2/build/CMakeFiles/CMakeScratch/TryCompile-z05w5w"
-      binary: "C:/Users/sohai/OneDrive - Universidad Rey Juan Carlos/Documentos/Practicas_CAP/Practica2/build/CMakeFiles/CMakeScratch/TryCompile-z05w5w"
+      source: "C:/Users/sohai/OneDrive - Universidad Rey Juan Carlos/Documentos/Practicas_CAP/Practica2/build/CMakeFiles/CMakeScratch/TryCompile-lpry3p"
+      binary: "C:/Users/sohai/OneDrive - Universidad Rey Juan Carlos/Documentos/Practicas_CAP/Practica2/build/CMakeFiles/CMakeScratch/TryCompile-lpry3p"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -137,40 +137,40 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/sohai/OneDrive - Universidad Rey Juan Carlos/Documentos/Practicas_CAP/Practica2/build/CMakeFiles/CMakeScratch/TryCompile-z05w5w'
+        Change Dir: 'C:/Users/sohai/OneDrive - Universidad Rey Juan Carlos/Documentos/Practicas_CAP/Practica2/build/CMakeFiles/CMakeScratch/TryCompile-lpry3p'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_7aa63.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_6180f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         Versión de MSBuild 17.9.8+b34f75857 para .NET Framework
-        Compilación iniciada a las 10/06/2024 20:14:49.
+        Compilación iniciada a las 10/06/2024 22:16:06.
         
-        Proyecto "C:\\Users\\sohai\\OneDrive - Universidad Rey Juan Carlos\\Documentos\\Practicas_CAP\\Practica2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z05w5w\\cmTC_7aa63.vcxproj" en nodo 1 (destinos predeterminados).
+        Proyecto "C:\\Users\\sohai\\OneDrive - Universidad Rey Juan Carlos\\Documentos\\Practicas_CAP\\Practica2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lpry3p\\cmTC_6180f.vcxproj" en nodo 1 (destinos predeterminados).
         PrepareForBuild:
-          Creando directorio "cmTC_7aa63.dir\\Debug\\".
+          Creando directorio "cmTC_6180f.dir\\Debug\\".
           La salida estructurada está habilitada. El formato del diagnóstico del compilador reflejará la jerarquía de errores. Consulte https://aka.ms/cpp/structured-output para obtener más detalles.
-          Creando directorio "C:\\Users\\sohai\\OneDrive - Universidad Rey Juan Carlos\\Documentos\\Practicas_CAP\\Practica2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z05w5w\\Debug\\".
-          Creando directorio "cmTC_7aa63.dir\\Debug\\cmTC_7aa63.tlog\\".
+          Creando directorio "C:\\Users\\sohai\\OneDrive - Universidad Rey Juan Carlos\\Documentos\\Practicas_CAP\\Practica2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lpry3p\\Debug\\".
+          Creando directorio "cmTC_6180f.dir\\Debug\\cmTC_6180f.tlog\\".
         InitializeBuildStatus:
-          Se creará "cmTC_7aa63.dir\\Debug\\cmTC_7aa63.tlog\\unsuccessfulbuild" porque se especificó "AlwaysCreate".
-          Aplicando tarea Touch a "cmTC_7aa63.dir\\Debug\\cmTC_7aa63.tlog\\unsuccessfulbuild".
+          Se creará "cmTC_6180f.dir\\Debug\\cmTC_6180f.tlog\\unsuccessfulbuild" porque se especificó "AlwaysCreate".
+          Aplicando tarea Touch a "cmTC_6180f.dir\\Debug\\cmTC_6180f.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7aa63.dir\\Debug\\\\" /Fd"cmTC_7aa63.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6180f.dir\\Debug\\\\" /Fd"cmTC_6180f.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c"
           Compilador de optimización de C/C++ de Microsoft (R) versión 19.39.33523 para x64
           (C) Microsoft Corporation. Todos los derechos reservados.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7aa63.dir\\Debug\\\\" /Fd"cmTC_7aa63.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6180f.dir\\Debug\\\\" /Fd"cmTC_6180f.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c"
           CMakeCCompilerABI.c
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\sohai\\OneDrive - Universidad Rey Juan Carlos\\Documentos\\Practicas_CAP\\Practica2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z05w5w\\Debug\\cmTC_7aa63.exe" /INCREMENTAL /ILK:"cmTC_7aa63.dir\\Debug\\cmTC_7aa63.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/sohai/OneDrive - Universidad Rey Juan Carlos/Documentos/Practicas_CAP/Practica2/build/CMakeFiles/CMakeScratch/TryCompile-z05w5w/Debug/cmTC_7aa63.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/sohai/OneDrive - Universidad Rey Juan Carlos/Documentos/Practicas_CAP/Practica2/build/CMakeFiles/CMakeScratch/TryCompile-z05w5w/Debug/cmTC_7aa63.lib" /MACHINE:X64  /machine:x64 cmTC_7aa63.dir\\Debug\\CMakeCCompilerABI.obj
-          cmTC_7aa63.vcxproj -> C:\\Users\\sohai\\OneDrive - Universidad Rey Juan Carlos\\Documentos\\Practicas_CAP\\Practica2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z05w5w\\Debug\\cmTC_7aa63.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\sohai\\OneDrive - Universidad Rey Juan Carlos\\Documentos\\Practicas_CAP\\Practica2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lpry3p\\Debug\\cmTC_6180f.exe" /INCREMENTAL /ILK:"cmTC_6180f.dir\\Debug\\cmTC_6180f.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/sohai/OneDrive - Universidad Rey Juan Carlos/Documentos/Practicas_CAP/Practica2/build/CMakeFiles/CMakeScratch/TryCompile-lpry3p/Debug/cmTC_6180f.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/sohai/OneDrive - Universidad Rey Juan Carlos/Documentos/Practicas_CAP/Practica2/build/CMakeFiles/CMakeScratch/TryCompile-lpry3p/Debug/cmTC_6180f.lib" /MACHINE:X64  /machine:x64 cmTC_6180f.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_6180f.vcxproj -> C:\\Users\\sohai\\OneDrive - Universidad Rey Juan Carlos\\Documentos\\Practicas_CAP\\Practica2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lpry3p\\Debug\\cmTC_6180f.exe
         FinalizeBuildStatus:
-          Se eliminará el archivo "cmTC_7aa63.dir\\Debug\\cmTC_7aa63.tlog\\unsuccessfulbuild".
-          Aplicando tarea Touch a "cmTC_7aa63.dir\\Debug\\cmTC_7aa63.tlog\\cmTC_7aa63.lastbuildstate".
-        Compilación del proyecto terminada "C:\\Users\\sohai\\OneDrive - Universidad Rey Juan Carlos\\Documentos\\Practicas_CAP\\Practica2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z05w5w\\cmTC_7aa63.vcxproj" (destinos predeterminados).
+          Se eliminará el archivo "cmTC_6180f.dir\\Debug\\cmTC_6180f.tlog\\unsuccessfulbuild".
+          Aplicando tarea Touch a "cmTC_6180f.dir\\Debug\\cmTC_6180f.tlog\\cmTC_6180f.lastbuildstate".
+        Compilación del proyecto terminada "C:\\Users\\sohai\\OneDrive - Universidad Rey Juan Carlos\\Documentos\\Practicas_CAP\\Practica2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lpry3p\\cmTC_6180f.vcxproj" (destinos predeterminados).
         
         Compilación correcta.
             0 Advertencia(s)
             0 Errores
         
-        Tiempo transcurrido 00:00:00.81
+        Tiempo transcurrido 00:00:00.91
         
       exitCode: 0
   -
@@ -182,8 +182,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/Users/sohai/OneDrive - Universidad Rey Juan Carlos/Documentos/Practicas_CAP/Practica2/build/CMakeFiles/CMakeScratch/TryCompile-rbk5l8"
-      binary: "C:/Users/sohai/OneDrive - Universidad Rey Juan Carlos/Documentos/Practicas_CAP/Practica2/build/CMakeFiles/CMakeScratch/TryCompile-rbk5l8"
+      source: "C:/Users/sohai/OneDrive - Universidad Rey Juan Carlos/Documentos/Practicas_CAP/Practica2/build/CMakeFiles/CMakeScratch/TryCompile-xfcatj"
+      binary: "C:/Users/sohai/OneDrive - Universidad Rey Juan Carlos/Documentos/Practicas_CAP/Practica2/build/CMakeFiles/CMakeScratch/TryCompile-xfcatj"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -192,34 +192,89 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/sohai/OneDrive - Universidad Rey Juan Carlos/Documentos/Practicas_CAP/Practica2/build/CMakeFiles/CMakeScratch/TryCompile-rbk5l8'
+        Change Dir: 'C:/Users/sohai/OneDrive - Universidad Rey Juan Carlos/Documentos/Practicas_CAP/Practica2/build/CMakeFiles/CMakeScratch/TryCompile-xfcatj'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_a8c3b.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_72b85.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         Versión de MSBuild 17.9.8+b34f75857 para .NET Framework
-        Compilación iniciada a las 10/06/2024 20:14:51.
+        Compilación iniciada a las 10/06/2024 22:16:08.
         
-        Proyecto "C:\\Users\\sohai\\OneDrive - Universidad Rey Juan Carlos\\Documentos\\Practicas_CAP\\Practica2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rbk5l8\\cmTC_a8c3b.vcxproj" en nodo 1 (destinos predeterminados).
+        Proyecto "C:\\Users\\sohai\\OneDrive - Universidad Rey Juan Carlos\\Documentos\\Practicas_CAP\\Practica2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xfcatj\\cmTC_72b85.vcxproj" en nodo 1 (destinos predeterminados).
         PrepareForBuild:
-          Creando directorio "cmTC_a8c3b.dir\\Debug\\".
+          Creando directorio "cmTC_72b85.dir\\Debug\\".
           La salida estructurada está habilitada. El formato del diagnóstico del compilador reflejará la jerarquía de errores. Consulte https://aka.ms/cpp/structured-output para obtener más detalles.
-          Creando directorio "C:\\Users\\sohai\\OneDrive - Universidad Rey Juan Carlos\\Documentos\\Practicas_CAP\\Practica2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rbk5l8\\Debug\\".
-          Creando directorio "cmTC_a8c3b.dir\\Debug\\cmTC_a8c3b.tlog\\".
+          Creando directorio "C:\\Users\\sohai\\OneDrive - Universidad Rey Juan Carlos\\Documentos\\Practicas_CAP\\Practica2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xfcatj\\Debug\\".
+          Creando directorio "cmTC_72b85.dir\\Debug\\cmTC_72b85.tlog\\".
         InitializeBuildStatus:
-          Se creará "cmTC_a8c3b.dir\\Debug\\cmTC_a8c3b.tlog\\unsuccessfulbuild" porque se especificó "AlwaysCreate".
-          Aplicando tarea Touch a "cmTC_a8c3b.dir\\Debug\\cmTC_a8c3b.tlog\\unsuccessfulbuild".
+          Se creará "cmTC_72b85.dir\\Debug\\cmTC_72b85.tlog\\unsuccessfulbuild" porque se especificó "AlwaysCreate".
+          Aplicando tarea Touch a "cmTC_72b85.dir\\Debug\\cmTC_72b85.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_a8c3b.dir\\Debug\\\\" /Fd"cmTC_a8c3b.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_72b85.dir\\Debug\\\\" /Fd"cmTC_72b85.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp"
           Compilador de optimización de C/C++ de Microsoft (R) versión 19.39.33523 para x64
           (C) Microsoft Corporation. Todos los derechos reservados.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_a8c3b.dir\\Debug\\\\" /Fd"cmTC_a8c3b.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_72b85.dir\\Debug\\\\" /Fd"cmTC_72b85.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp"
           CMakeCXXCompilerABI.cpp
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\sohai\\OneDrive - Universidad Rey Juan Carlos\\Documentos\\Practicas_CAP\\Practica2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rbk5l8\\Debug\\cmTC_a8c3b.exe" /INCREMENTAL /ILK:"cmTC_a8c3b.dir\\Debug\\cmTC_a8c3b.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/sohai/OneDrive - Universidad Rey Juan Carlos/Documentos/Practicas_CAP/Practica2/build/CMakeFiles/CMakeScratch/TryCompile-rbk5l8/Debug/cmTC_a8c3b.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/sohai/OneDrive - Universidad Rey Juan Carlos/Documentos/Practicas_CAP/Practica2/build/CMakeFiles/CMakeScratch/TryCompile-rbk5l8/Debug/cmTC_a8c3b.lib" /MACHINE:X64  /machine:x64 cmTC_a8c3b.dir\\Debug\\CMakeCXXCompilerABI.obj
-          cmTC_a8c3b.vcxproj -> C:\\Users\\sohai\\OneDrive - Universidad Rey Juan Carlos\\Documentos\\Practicas_CAP\\Practica2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rbk5l8\\Debug\\cmTC_a8c3b.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\sohai\\OneDrive - Universidad Rey Juan Carlos\\Documentos\\Practicas_CAP\\Practica2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xfcatj\\Debug\\cmTC_72b85.exe" /INCREMENTAL /ILK:"cmTC_72b85.dir\\Debug\\cmTC_72b85.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/sohai/OneDrive - Universidad Rey Juan Carlos/Documentos/Practicas_CAP/Practica2/build/CMakeFiles/CMakeScratch/TryCompile-xfcatj/Debug/cmTC_72b85.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/sohai/OneDrive - Universidad Rey Juan Carlos/Documentos/Practicas_CAP/Practica2/build/CMakeFiles/CMakeScratch/TryCompile-xfcatj/Debug/cmTC_72b85.lib" /MACHINE:X64  /machine:x64 cmTC_72b85.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_72b85.vcxproj -> C:\\Users\\sohai\\OneDrive - Universidad Rey Juan Carlos\\Documentos\\Practicas_CAP\\Practica2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xfcatj\\Debug\\cmTC_72b85.exe
         FinalizeBuildStatus:
-          Se eliminará el archivo "cmTC_a8c3b.dir\\Debug\\cmTC_a8c3b.tlog\\unsuccessfulbuild".
-          Aplicando tarea Touch a "cmTC_a8c3b.dir\\Debug\\cmTC_a8c3b.tlog\\cmTC_a8c3b.lastbuildstate".
-        Compilación del proyecto terminada "C:\\Users\\sohai\\OneDrive - Universidad Rey Juan Carlos\\Documentos\\Practicas_CAP\\Practica2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rbk5l8\\cmTC_a8c3b.vcxproj" (destinos predeterminados).
+          Se eliminará el archivo "cmTC_72b85.dir\\Debug\\cmTC_72b85.tlog\\unsuccessfulbuild".
+          Aplicando tarea Touch a "cmTC_72b85.dir\\Debug\\cmTC_72b85.tlog\\cmTC_72b85.lastbuildstate".
+        Compilación del proyecto terminada "C:\\Users\\sohai\\OneDrive - Universidad Rey Juan Carlos\\Documentos\\Practicas_CAP\\Practica2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xfcatj\\cmTC_72b85.vcxproj" (destinos predeterminados).
+        
+        Compilación correcta.
+            0 Advertencia(s)
+            0 Errores
+        
+        Tiempo transcurrido 00:00:01.17
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:22 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "C:/Users/sohai/OneDrive - Universidad Rey Juan Carlos/Documentos/Practicas_CAP/Practica2/build/CMakeFiles/CMakeScratch/TryCompile-y9q8hh"
+      binary: "C:/Users/sohai/OneDrive - Universidad Rey Juan Carlos/Documentos/Practicas_CAP/Practica2/build/CMakeFiles/CMakeScratch/TryCompile-y9q8hh"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/sohai/OneDrive - Universidad Rey Juan Carlos/Documentos/Practicas_CAP/Practica2/build/CMakeFiles/CMakeScratch/TryCompile-y9q8hh'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_c1750.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Versión de MSBuild 17.9.8+b34f75857 para .NET Framework
+        Compilación iniciada a las 10/06/2024 22:16:12.
+        
+        Proyecto "C:\\Users\\sohai\\OneDrive - Universidad Rey Juan Carlos\\Documentos\\Practicas_CAP\\Practica2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y9q8hh\\cmTC_c1750.vcxproj" en nodo 1 (destinos predeterminados).
+        PrepareForBuild:
+          Creando directorio "cmTC_c1750.dir\\Debug\\".
+          La salida estructurada está habilitada. El formato del diagnóstico del compilador reflejará la jerarquía de errores. Consulte https://aka.ms/cpp/structured-output para obtener más detalles.
+          Creando directorio "C:\\Users\\sohai\\OneDrive - Universidad Rey Juan Carlos\\Documentos\\Practicas_CAP\\Practica2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y9q8hh\\Debug\\".
+          Creando directorio "cmTC_c1750.dir\\Debug\\cmTC_c1750.tlog\\".
+        InitializeBuildStatus:
+          Se creará "cmTC_c1750.dir\\Debug\\cmTC_c1750.tlog\\unsuccessfulbuild" porque se especificó "AlwaysCreate".
+          Aplicando tarea Touch a "cmTC_c1750.dir\\Debug\\cmTC_c1750.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c1750.dir\\Debug\\\\" /Fd"cmTC_c1750.dir\\Debug\\vc143.pdb" /external:W0 /Gd /TC /errorReport:queue  /external:I "C:/Program Files (x86)/Microsoft SDKs/MPI/Include" "C:\\Users\\sohai\\OneDrive - Universidad Rey Juan Carlos\\Documentos\\Practicas_CAP\\Practica2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y9q8hh\\test_mpi.c"
+          Compilador de optimización de C/C++ de Microsoft (R) versión 19.39.33523 para x64
+          (C) Microsoft Corporation. Todos los derechos reservados.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c1750.dir\\Debug\\\\" /Fd"cmTC_c1750.dir\\Debug\\vc143.pdb" /external:W0 /Gd /TC /errorReport:queue  /external:I "C:/Program Files (x86)/Microsoft SDKs/MPI/Include" "C:\\Users\\sohai\\OneDrive - Universidad Rey Juan Carlos\\Documentos\\Practicas_CAP\\Practica2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y9q8hh\\test_mpi.c"
+          test_mpi.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\sohai\\OneDrive - Universidad Rey Juan Carlos\\Documentos\\Practicas_CAP\\Practica2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y9q8hh\\Debug\\cmTC_c1750.exe" /INCREMENTAL /ILK:"cmTC_c1750.dir\\Debug\\cmTC_c1750.ilk" /NOLOGO "C:\\Program Files (x86)\\Microsoft SDKs\\MPI\\Lib\\x64\\msmpi.lib" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/sohai/OneDrive - Universidad Rey Juan Carlos/Documentos/Practicas_CAP/Practica2/build/CMakeFiles/CMakeScratch/TryCompile-y9q8hh/Debug/cmTC_c1750.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/sohai/OneDrive - Universidad Rey Juan Carlos/Documentos/Practicas_CAP/Practica2/build/CMakeFiles/CMakeScratch/TryCompile-y9q8hh/Debug/cmTC_c1750.lib" /MACHINE:X64  /machine:x64 cmTC_c1750.dir\\Debug\\test_mpi.obj
+          cmTC_c1750.vcxproj -> C:\\Users\\sohai\\OneDrive - Universidad Rey Juan Carlos\\Documentos\\Practicas_CAP\\Practica2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y9q8hh\\Debug\\cmTC_c1750.exe
+        FinalizeBuildStatus:
+          Se eliminará el archivo "cmTC_c1750.dir\\Debug\\cmTC_c1750.tlog\\unsuccessfulbuild".
+          Aplicando tarea Touch a "cmTC_c1750.dir\\Debug\\cmTC_c1750.tlog\\cmTC_c1750.lastbuildstate".
+        Compilación del proyecto terminada "C:\\Users\\sohai\\OneDrive - Universidad Rey Juan Carlos\\Documentos\\Practicas_CAP\\Practica2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y9q8hh\\cmTC_c1750.vcxproj" (destinos predeterminados).
         
         Compilación correcta.
             0 Advertencia(s)
@@ -235,65 +290,10 @@ events:
       - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
       - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
       - "CMakeLists.txt:22 (find_package)"
-    description: "The MPI test test_mpi for C in mode normal"
-    directories:
-      source: "C:/Users/sohai/OneDrive - Universidad Rey Juan Carlos/Documentos/Practicas_CAP/Practica2/build/CMakeFiles/CMakeScratch/TryCompile-oava84"
-      binary: "C:/Users/sohai/OneDrive - Universidad Rey Juan Carlos/Documentos/Practicas_CAP/Practica2/build/CMakeFiles/CMakeScratch/TryCompile-oava84"
-    cmakeVariables:
-      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
-      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
-      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
-    buildResult:
-      variable: "MPI_RESULT_C_test_mpi_normal"
-      cached: true
-      stdout: |
-        Change Dir: 'C:/Users/sohai/OneDrive - Universidad Rey Juan Carlos/Documentos/Practicas_CAP/Practica2/build/CMakeFiles/CMakeScratch/TryCompile-oava84'
-        
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_6a8b8.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
-        Versión de MSBuild 17.9.8+b34f75857 para .NET Framework
-        Compilación iniciada a las 10/06/2024 20:14:55.
-        
-        Proyecto "C:\\Users\\sohai\\OneDrive - Universidad Rey Juan Carlos\\Documentos\\Practicas_CAP\\Practica2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-oava84\\cmTC_6a8b8.vcxproj" en nodo 1 (destinos predeterminados).
-        PrepareForBuild:
-          Creando directorio "cmTC_6a8b8.dir\\Debug\\".
-          La salida estructurada está habilitada. El formato del diagnóstico del compilador reflejará la jerarquía de errores. Consulte https://aka.ms/cpp/structured-output para obtener más detalles.
-          Creando directorio "C:\\Users\\sohai\\OneDrive - Universidad Rey Juan Carlos\\Documentos\\Practicas_CAP\\Practica2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-oava84\\Debug\\".
-          Creando directorio "cmTC_6a8b8.dir\\Debug\\cmTC_6a8b8.tlog\\".
-        InitializeBuildStatus:
-          Se creará "cmTC_6a8b8.dir\\Debug\\cmTC_6a8b8.tlog\\unsuccessfulbuild" porque se especificó "AlwaysCreate".
-          Aplicando tarea Touch a "cmTC_6a8b8.dir\\Debug\\cmTC_6a8b8.tlog\\unsuccessfulbuild".
-        ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6a8b8.dir\\Debug\\\\" /Fd"cmTC_6a8b8.dir\\Debug\\vc143.pdb" /external:W0 /Gd /TC /errorReport:queue  /external:I "C:/Program Files (x86)/Microsoft SDKs/MPI/Include" "C:\\Users\\sohai\\OneDrive - Universidad Rey Juan Carlos\\Documentos\\Practicas_CAP\\Practica2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-oava84\\test_mpi.c"
-          Compilador de optimización de C/C++ de Microsoft (R) versión 19.39.33523 para x64
-          (C) Microsoft Corporation. Todos los derechos reservados.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6a8b8.dir\\Debug\\\\" /Fd"cmTC_6a8b8.dir\\Debug\\vc143.pdb" /external:W0 /Gd /TC /errorReport:queue  /external:I "C:/Program Files (x86)/Microsoft SDKs/MPI/Include" "C:\\Users\\sohai\\OneDrive - Universidad Rey Juan Carlos\\Documentos\\Practicas_CAP\\Practica2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-oava84\\test_mpi.c"
-          test_mpi.c
-        Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\sohai\\OneDrive - Universidad Rey Juan Carlos\\Documentos\\Practicas_CAP\\Practica2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-oava84\\Debug\\cmTC_6a8b8.exe" /INCREMENTAL /ILK:"cmTC_6a8b8.dir\\Debug\\cmTC_6a8b8.ilk" /NOLOGO "C:\\Program Files (x86)\\Microsoft SDKs\\MPI\\Lib\\x64\\msmpi.lib" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/sohai/OneDrive - Universidad Rey Juan Carlos/Documentos/Practicas_CAP/Practica2/build/CMakeFiles/CMakeScratch/TryCompile-oava84/Debug/cmTC_6a8b8.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/sohai/OneDrive - Universidad Rey Juan Carlos/Documentos/Practicas_CAP/Practica2/build/CMakeFiles/CMakeScratch/TryCompile-oava84/Debug/cmTC_6a8b8.lib" /MACHINE:X64  /machine:x64 cmTC_6a8b8.dir\\Debug\\test_mpi.obj
-          cmTC_6a8b8.vcxproj -> C:\\Users\\sohai\\OneDrive - Universidad Rey Juan Carlos\\Documentos\\Practicas_CAP\\Practica2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-oava84\\Debug\\cmTC_6a8b8.exe
-        FinalizeBuildStatus:
-          Se eliminará el archivo "cmTC_6a8b8.dir\\Debug\\cmTC_6a8b8.tlog\\unsuccessfulbuild".
-          Aplicando tarea Touch a "cmTC_6a8b8.dir\\Debug\\cmTC_6a8b8.tlog\\cmTC_6a8b8.lastbuildstate".
-        Compilación del proyecto terminada "C:\\Users\\sohai\\OneDrive - Universidad Rey Juan Carlos\\Documentos\\Practicas_CAP\\Practica2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-oava84\\cmTC_6a8b8.vcxproj" (destinos predeterminados).
-        
-        Compilación correcta.
-            0 Advertencia(s)
-            0 Errores
-        
-        Tiempo transcurrido 00:00:00.97
-        
-      exitCode: 0
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/FindMPI.cmake:1278 (try_compile)"
-      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
-      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
-      - "CMakeLists.txt:22 (find_package)"
     description: "The MPI test test_mpi for CXX in mode normal"
     directories:
-      source: "C:/Users/sohai/OneDrive - Universidad Rey Juan Carlos/Documentos/Practicas_CAP/Practica2/build/CMakeFiles/CMakeScratch/TryCompile-5dfs8a"
-      binary: "C:/Users/sohai/OneDrive - Universidad Rey Juan Carlos/Documentos/Practicas_CAP/Practica2/build/CMakeFiles/CMakeScratch/TryCompile-5dfs8a"
+      source: "C:/Users/sohai/OneDrive - Universidad Rey Juan Carlos/Documentos/Practicas_CAP/Practica2/build/CMakeFiles/CMakeScratch/TryCompile-d22aga"
+      binary: "C:/Users/sohai/OneDrive - Universidad Rey Juan Carlos/Documentos/Practicas_CAP/Practica2/build/CMakeFiles/CMakeScratch/TryCompile-d22aga"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -302,34 +302,34 @@ events:
       variable: "MPI_RESULT_CXX_test_mpi_normal"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/sohai/OneDrive - Universidad Rey Juan Carlos/Documentos/Practicas_CAP/Practica2/build/CMakeFiles/CMakeScratch/TryCompile-5dfs8a'
+        Change Dir: 'C:/Users/sohai/OneDrive - Universidad Rey Juan Carlos/Documentos/Practicas_CAP/Practica2/build/CMakeFiles/CMakeScratch/TryCompile-d22aga'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_8ae06.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_bac2a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         Versión de MSBuild 17.9.8+b34f75857 para .NET Framework
-        Compilación iniciada a las 10/06/2024 20:14:59.
+        Compilación iniciada a las 10/06/2024 22:16:16.
         
-        Proyecto "C:\\Users\\sohai\\OneDrive - Universidad Rey Juan Carlos\\Documentos\\Practicas_CAP\\Practica2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5dfs8a\\cmTC_8ae06.vcxproj" en nodo 1 (destinos predeterminados).
+        Proyecto "C:\\Users\\sohai\\OneDrive - Universidad Rey Juan Carlos\\Documentos\\Practicas_CAP\\Practica2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d22aga\\cmTC_bac2a.vcxproj" en nodo 1 (destinos predeterminados).
         PrepareForBuild:
-          Creando directorio "cmTC_8ae06.dir\\Debug\\".
+          Creando directorio "cmTC_bac2a.dir\\Debug\\".
           La salida estructurada está habilitada. El formato del diagnóstico del compilador reflejará la jerarquía de errores. Consulte https://aka.ms/cpp/structured-output para obtener más detalles.
-          Creando directorio "C:\\Users\\sohai\\OneDrive - Universidad Rey Juan Carlos\\Documentos\\Practicas_CAP\\Practica2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5dfs8a\\Debug\\".
-          Creando directorio "cmTC_8ae06.dir\\Debug\\cmTC_8ae06.tlog\\".
+          Creando directorio "C:\\Users\\sohai\\OneDrive - Universidad Rey Juan Carlos\\Documentos\\Practicas_CAP\\Practica2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d22aga\\Debug\\".
+          Creando directorio "cmTC_bac2a.dir\\Debug\\cmTC_bac2a.tlog\\".
         InitializeBuildStatus:
-          Se creará "cmTC_8ae06.dir\\Debug\\cmTC_8ae06.tlog\\unsuccessfulbuild" porque se especificó "AlwaysCreate".
-          Aplicando tarea Touch a "cmTC_8ae06.dir\\Debug\\cmTC_8ae06.tlog\\unsuccessfulbuild".
+          Se creará "cmTC_bac2a.dir\\Debug\\cmTC_bac2a.tlog\\unsuccessfulbuild" porque se especificó "AlwaysCreate".
+          Aplicando tarea Touch a "cmTC_bac2a.dir\\Debug\\cmTC_bac2a.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_8ae06.dir\\Debug\\\\" /Fd"cmTC_8ae06.dir\\Debug\\vc143.pdb" /external:W0 /Gd /TP /errorReport:queue  /external:I "C:/Program Files (x86)/Microsoft SDKs/MPI/Include" "C:\\Users\\sohai\\OneDrive - Universidad Rey Juan Carlos\\Documentos\\Practicas_CAP\\Practica2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5dfs8a\\test_mpi.cpp"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_bac2a.dir\\Debug\\\\" /Fd"cmTC_bac2a.dir\\Debug\\vc143.pdb" /external:W0 /Gd /TP /errorReport:queue  /external:I "C:/Program Files (x86)/Microsoft SDKs/MPI/Include" "C:\\Users\\sohai\\OneDrive - Universidad Rey Juan Carlos\\Documentos\\Practicas_CAP\\Practica2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d22aga\\test_mpi.cpp"
           Compilador de optimización de C/C++ de Microsoft (R) versión 19.39.33523 para x64
           (C) Microsoft Corporation. Todos los derechos reservados.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_8ae06.dir\\Debug\\\\" /Fd"cmTC_8ae06.dir\\Debug\\vc143.pdb" /external:W0 /Gd /TP /errorReport:queue  /external:I "C:/Program Files (x86)/Microsoft SDKs/MPI/Include" "C:\\Users\\sohai\\OneDrive - Universidad Rey Juan Carlos\\Documentos\\Practicas_CAP\\Practica2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5dfs8a\\test_mpi.cpp"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_bac2a.dir\\Debug\\\\" /Fd"cmTC_bac2a.dir\\Debug\\vc143.pdb" /external:W0 /Gd /TP /errorReport:queue  /external:I "C:/Program Files (x86)/Microsoft SDKs/MPI/Include" "C:\\Users\\sohai\\OneDrive - Universidad Rey Juan Carlos\\Documentos\\Practicas_CAP\\Practica2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d22aga\\test_mpi.cpp"
           test_mpi.cpp
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\sohai\\OneDrive - Universidad Rey Juan Carlos\\Documentos\\Practicas_CAP\\Practica2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5dfs8a\\Debug\\cmTC_8ae06.exe" /INCREMENTAL /ILK:"cmTC_8ae06.dir\\Debug\\cmTC_8ae06.ilk" /NOLOGO "C:\\Program Files (x86)\\Microsoft SDKs\\MPI\\Lib\\x64\\msmpi.lib" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/sohai/OneDrive - Universidad Rey Juan Carlos/Documentos/Practicas_CAP/Practica2/build/CMakeFiles/CMakeScratch/TryCompile-5dfs8a/Debug/cmTC_8ae06.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/sohai/OneDrive - Universidad Rey Juan Carlos/Documentos/Practicas_CAP/Practica2/build/CMakeFiles/CMakeScratch/TryCompile-5dfs8a/Debug/cmTC_8ae06.lib" /MACHINE:X64  /machine:x64 cmTC_8ae06.dir\\Debug\\test_mpi.obj
-          cmTC_8ae06.vcxproj -> C:\\Users\\sohai\\OneDrive - Universidad Rey Juan Carlos\\Documentos\\Practicas_CAP\\Practica2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5dfs8a\\Debug\\cmTC_8ae06.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\sohai\\OneDrive - Universidad Rey Juan Carlos\\Documentos\\Practicas_CAP\\Practica2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d22aga\\Debug\\cmTC_bac2a.exe" /INCREMENTAL /ILK:"cmTC_bac2a.dir\\Debug\\cmTC_bac2a.ilk" /NOLOGO "C:\\Program Files (x86)\\Microsoft SDKs\\MPI\\Lib\\x64\\msmpi.lib" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/sohai/OneDrive - Universidad Rey Juan Carlos/Documentos/Practicas_CAP/Practica2/build/CMakeFiles/CMakeScratch/TryCompile-d22aga/Debug/cmTC_bac2a.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/sohai/OneDrive - Universidad Rey Juan Carlos/Documentos/Practicas_CAP/Practica2/build/CMakeFiles/CMakeScratch/TryCompile-d22aga/Debug/cmTC_bac2a.lib" /MACHINE:X64  /machine:x64 cmTC_bac2a.dir\\Debug\\test_mpi.obj
+          cmTC_bac2a.vcxproj -> C:\\Users\\sohai\\OneDrive - Universidad Rey Juan Carlos\\Documentos\\Practicas_CAP\\Practica2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d22aga\\Debug\\cmTC_bac2a.exe
         FinalizeBuildStatus:
-          Se eliminará el archivo "cmTC_8ae06.dir\\Debug\\cmTC_8ae06.tlog\\unsuccessfulbuild".
-          Aplicando tarea Touch a "cmTC_8ae06.dir\\Debug\\cmTC_8ae06.tlog\\cmTC_8ae06.lastbuildstate".
-        Compilación del proyecto terminada "C:\\Users\\sohai\\OneDrive - Universidad Rey Juan Carlos\\Documentos\\Practicas_CAP\\Practica2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5dfs8a\\cmTC_8ae06.vcxproj" (destinos predeterminados).
+          Se eliminará el archivo "cmTC_bac2a.dir\\Debug\\cmTC_bac2a.tlog\\unsuccessfulbuild".
+          Aplicando tarea Touch a "cmTC_bac2a.dir\\Debug\\cmTC_bac2a.tlog\\cmTC_bac2a.lastbuildstate".
+        Compilación del proyecto terminada "C:\\Users\\sohai\\OneDrive - Universidad Rey Juan Carlos\\Documentos\\Practicas_CAP\\Practica2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d22aga\\cmTC_bac2a.vcxproj" (destinos predeterminados).
         
         Compilación correcta.
             0 Advertencia(s)
@@ -346,8 +346,8 @@ events:
       - "CMakeLists.txt:22 (find_package)"
     description: "The MPI test test_mpi for CXX in mode MPICXX"
     directories:
-      source: "C:/Users/sohai/OneDrive - Universidad Rey Juan Carlos/Documentos/Practicas_CAP/Practica2/build/CMakeFiles/CMakeScratch/TryCompile-73p2q9"
-      binary: "C:/Users/sohai/OneDrive - Universidad Rey Juan Carlos/Documentos/Practicas_CAP/Practica2/build/CMakeFiles/CMakeScratch/TryCompile-73p2q9"
+      source: "C:/Users/sohai/OneDrive - Universidad Rey Juan Carlos/Documentos/Practicas_CAP/Practica2/build/CMakeFiles/CMakeScratch/TryCompile-cxqxbx"
+      binary: "C:/Users/sohai/OneDrive - Universidad Rey Juan Carlos/Documentos/Practicas_CAP/Practica2/build/CMakeFiles/CMakeScratch/TryCompile-cxqxbx"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -356,40 +356,40 @@ events:
       variable: "MPI_RESULT_CXX_test_mpi_MPICXX"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/sohai/OneDrive - Universidad Rey Juan Carlos/Documentos/Practicas_CAP/Practica2/build/CMakeFiles/CMakeScratch/TryCompile-73p2q9'
+        Change Dir: 'C:/Users/sohai/OneDrive - Universidad Rey Juan Carlos/Documentos/Practicas_CAP/Practica2/build/CMakeFiles/CMakeScratch/TryCompile-cxqxbx'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_f04b9.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_58031.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         Versión de MSBuild 17.9.8+b34f75857 para .NET Framework
-        Compilación iniciada a las 10/06/2024 20:15:01.
+        Compilación iniciada a las 10/06/2024 22:16:18.
         
-        Proyecto "C:\\Users\\sohai\\OneDrive - Universidad Rey Juan Carlos\\Documentos\\Practicas_CAP\\Practica2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-73p2q9\\cmTC_f04b9.vcxproj" en nodo 1 (destinos predeterminados).
+        Proyecto "C:\\Users\\sohai\\OneDrive - Universidad Rey Juan Carlos\\Documentos\\Practicas_CAP\\Practica2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cxqxbx\\cmTC_58031.vcxproj" en nodo 1 (destinos predeterminados).
         PrepareForBuild:
-          Creando directorio "cmTC_f04b9.dir\\Debug\\".
+          Creando directorio "cmTC_58031.dir\\Debug\\".
           La salida estructurada está habilitada. El formato del diagnóstico del compilador reflejará la jerarquía de errores. Consulte https://aka.ms/cpp/structured-output para obtener más detalles.
-          Creando directorio "C:\\Users\\sohai\\OneDrive - Universidad Rey Juan Carlos\\Documentos\\Practicas_CAP\\Practica2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-73p2q9\\Debug\\".
-          Creando directorio "cmTC_f04b9.dir\\Debug\\cmTC_f04b9.tlog\\".
+          Creando directorio "C:\\Users\\sohai\\OneDrive - Universidad Rey Juan Carlos\\Documentos\\Practicas_CAP\\Practica2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cxqxbx\\Debug\\".
+          Creando directorio "cmTC_58031.dir\\Debug\\cmTC_58031.tlog\\".
         InitializeBuildStatus:
-          Se creará "cmTC_f04b9.dir\\Debug\\cmTC_f04b9.tlog\\unsuccessfulbuild" porque se especificó "AlwaysCreate".
-          Aplicando tarea Touch a "cmTC_f04b9.dir\\Debug\\cmTC_f04b9.tlog\\unsuccessfulbuild".
+          Se creará "cmTC_58031.dir\\Debug\\cmTC_58031.tlog\\unsuccessfulbuild" porque se especificó "AlwaysCreate".
+          Aplicando tarea Touch a "cmTC_58031.dir\\Debug\\cmTC_58031.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_f04b9.dir\\Debug\\\\" /Fd"cmTC_f04b9.dir\\Debug\\vc143.pdb" /external:W0 /Gd /TP /errorReport:queue  /external:I "C:/Program Files (x86)/Microsoft SDKs/MPI/Include" "C:\\Users\\sohai\\OneDrive - Universidad Rey Juan Carlos\\Documentos\\Practicas_CAP\\Practica2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-73p2q9\\test_mpi.cpp"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_58031.dir\\Debug\\\\" /Fd"cmTC_58031.dir\\Debug\\vc143.pdb" /external:W0 /Gd /TP /errorReport:queue  /external:I "C:/Program Files (x86)/Microsoft SDKs/MPI/Include" "C:\\Users\\sohai\\OneDrive - Universidad Rey Juan Carlos\\Documentos\\Practicas_CAP\\Practica2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cxqxbx\\test_mpi.cpp"
           Compilador de optimización de C/C++ de Microsoft (R) versión 19.39.33523 para x64
           (C) Microsoft Corporation. Todos los derechos reservados.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_f04b9.dir\\Debug\\\\" /Fd"cmTC_f04b9.dir\\Debug\\vc143.pdb" /external:W0 /Gd /TP /errorReport:queue  /external:I "C:/Program Files (x86)/Microsoft SDKs/MPI/Include" "C:\\Users\\sohai\\OneDrive - Universidad Rey Juan Carlos\\Documentos\\Practicas_CAP\\Practica2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-73p2q9\\test_mpi.cpp"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_58031.dir\\Debug\\\\" /Fd"cmTC_58031.dir\\Debug\\vc143.pdb" /external:W0 /Gd /TP /errorReport:queue  /external:I "C:/Program Files (x86)/Microsoft SDKs/MPI/Include" "C:\\Users\\sohai\\OneDrive - Universidad Rey Juan Carlos\\Documentos\\Practicas_CAP\\Practica2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cxqxbx\\test_mpi.cpp"
           test_mpi.cpp
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\sohai\\OneDrive - Universidad Rey Juan Carlos\\Documentos\\Practicas_CAP\\Practica2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-73p2q9\\Debug\\cmTC_f04b9.exe" /INCREMENTAL /ILK:"cmTC_f04b9.dir\\Debug\\cmTC_f04b9.ilk" /NOLOGO "C:\\Program Files (x86)\\Microsoft SDKs\\MPI\\Lib\\x64\\msmpi.lib" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/sohai/OneDrive - Universidad Rey Juan Carlos/Documentos/Practicas_CAP/Practica2/build/CMakeFiles/CMakeScratch/TryCompile-73p2q9/Debug/cmTC_f04b9.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/sohai/OneDrive - Universidad Rey Juan Carlos/Documentos/Practicas_CAP/Practica2/build/CMakeFiles/CMakeScratch/TryCompile-73p2q9/Debug/cmTC_f04b9.lib" /MACHINE:X64  /machine:x64 cmTC_f04b9.dir\\Debug\\test_mpi.obj
-          cmTC_f04b9.vcxproj -> C:\\Users\\sohai\\OneDrive - Universidad Rey Juan Carlos\\Documentos\\Practicas_CAP\\Practica2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-73p2q9\\Debug\\cmTC_f04b9.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\sohai\\OneDrive - Universidad Rey Juan Carlos\\Documentos\\Practicas_CAP\\Practica2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cxqxbx\\Debug\\cmTC_58031.exe" /INCREMENTAL /ILK:"cmTC_58031.dir\\Debug\\cmTC_58031.ilk" /NOLOGO "C:\\Program Files (x86)\\Microsoft SDKs\\MPI\\Lib\\x64\\msmpi.lib" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/sohai/OneDrive - Universidad Rey Juan Carlos/Documentos/Practicas_CAP/Practica2/build/CMakeFiles/CMakeScratch/TryCompile-cxqxbx/Debug/cmTC_58031.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/sohai/OneDrive - Universidad Rey Juan Carlos/Documentos/Practicas_CAP/Practica2/build/CMakeFiles/CMakeScratch/TryCompile-cxqxbx/Debug/cmTC_58031.lib" /MACHINE:X64  /machine:x64 cmTC_58031.dir\\Debug\\test_mpi.obj
+          cmTC_58031.vcxproj -> C:\\Users\\sohai\\OneDrive - Universidad Rey Juan Carlos\\Documentos\\Practicas_CAP\\Practica2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cxqxbx\\Debug\\cmTC_58031.exe
         FinalizeBuildStatus:
-          Se eliminará el archivo "cmTC_f04b9.dir\\Debug\\cmTC_f04b9.tlog\\unsuccessfulbuild".
-          Aplicando tarea Touch a "cmTC_f04b9.dir\\Debug\\cmTC_f04b9.tlog\\cmTC_f04b9.lastbuildstate".
-        Compilación del proyecto terminada "C:\\Users\\sohai\\OneDrive - Universidad Rey Juan Carlos\\Documentos\\Practicas_CAP\\Practica2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-73p2q9\\cmTC_f04b9.vcxproj" (destinos predeterminados).
+          Se eliminará el archivo "cmTC_58031.dir\\Debug\\cmTC_58031.tlog\\unsuccessfulbuild".
+          Aplicando tarea Touch a "cmTC_58031.dir\\Debug\\cmTC_58031.tlog\\cmTC_58031.lastbuildstate".
+        Compilación del proyecto terminada "C:\\Users\\sohai\\OneDrive - Universidad Rey Juan Carlos\\Documentos\\Practicas_CAP\\Practica2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cxqxbx\\cmTC_58031.vcxproj" (destinos predeterminados).
         
         Compilación correcta.
             0 Advertencia(s)
             0 Errores
         
-        Tiempo transcurrido 00:00:01.33
+        Tiempo transcurrido 00:00:01.11
         
       exitCode: 0
 ...

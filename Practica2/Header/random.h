@@ -2,6 +2,6 @@
 
 #include "Vec3.h"
 
-inline float random();
+float random();
 Vec3 randomNormalSphere();
 Vec3 randomNormalDisk();

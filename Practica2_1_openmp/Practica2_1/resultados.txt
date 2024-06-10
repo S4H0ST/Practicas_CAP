@@ -1,4 +1,6 @@
-Sin optimizacion: Tiempo total de ejecucion: 247.173882 segundos
-Con optimizacion: Tiempo total de ejecucion: 19.733000 segundos
 
-8 hilos
+Practica 2.1	100	245.348000 seg
+Practica 2.1	12	29.580000 seg
+Practica 2.1	4	10.684000 seg
+Practica 2.1	2	7.913000 seg
+

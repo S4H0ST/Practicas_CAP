@@ -104,7 +104,7 @@ void rayTracingCPU(unsigned char* img, int w, int h, int ns = 10, int px = 0, in
         }
     }
 }
-
+//g++ -O3 -fopenmp Practica2_1.cpp Original/random.cpp Original/utils.cpp Original/Sphere.cpp Original/Scene.cpp  Original/Metallic.cpp Original/Crystalline.cpp -o Practica2_1
 int main(int argc, char** argv) {
     double startTime, endTime;
 
@@ -114,7 +114,7 @@ int main(int argc, char** argv) {
 
     startTime = omp_get_wtime();
 
-    omp_set_num_threads(8);
+omp_set_num_threads(100);
 #pragma omp parallel
     {
         int thread_num = omp_get_thread_num();

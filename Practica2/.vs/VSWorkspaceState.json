@@ -8,8 +8,9 @@
   "ExpandedNodes": [
     "",
     "\\out",
-    "\\out\\build"
+    "\\out\\build",
+    "\\out\\build\\Release"
   ],
-  "SelectedNode": "\\Practica2.cpp",
+  "SelectedNode": "\\resultado.txt",
   "PreviewInSolutionExplorer": false
 }

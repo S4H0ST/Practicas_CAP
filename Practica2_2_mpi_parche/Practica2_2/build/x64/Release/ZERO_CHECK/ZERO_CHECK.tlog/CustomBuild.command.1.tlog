@@ -1,0 +1,10 @@
+^C:\USERS\SOHAI\ONEDRIVE - UNIVERSIDAD REY JUAN CARLOS\DOCUMENTOS\PRACTICAS_CAP\PRACTICA2_2_MPI_PARCHE\PRACTICA2_2\BUILD\CMAKEFILES\4260A2A1A2A52596EAE2BDA0D9C6DEE8\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SC:/Users/sohai/OneDrive - Universidad Rey Juan Carlos/Documentos/Practicas_CAP/Practica2_2_mpi_parche/Practica2_2" "-BC:/Users/sohai/OneDrive - Universidad Rey Juan Carlos/Documentos/Practicas_CAP/Practica2_2_mpi_parche/Practica2_2/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/sohai/OneDrive - Universidad Rey Juan Carlos/Documentos/Practicas_CAP/Practica2_2_mpi_parche/Practica2_2/build/Practica2_2.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

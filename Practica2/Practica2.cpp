@@ -110,7 +110,7 @@ void rayTracingCPU(unsigned char* img, int w, int h, int ns = 10, int px = 0, in
 //Comando para ejecutar el programa
 //cd cmake-build-debug
 // cmake -DCMAKE_BUILD_TYPE=Release ..
-// MSBuild Practica1.sln /p:Configuration=Release
+// MSBuild Practica2.sln /p:Configuration=Release
 //mpiexec -n 4 .\main.exe
 //mpiexec -help2
 int main(int argc, char** argv) {

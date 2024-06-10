@@ -1,0 +1,3 @@
+C:/Users/sohai/OneDrive - Universidad Rey Juan Carlos/Documentos/Practicas_CAP/Practica2_1_openmp_mpi/Practica2_1_2/build/CMakeFiles/Practica2_1_2.dir
+C:/Users/sohai/OneDrive - Universidad Rey Juan Carlos/Documentos/Practicas_CAP/Practica2_1_openmp_mpi/Practica2_1_2/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/sohai/OneDrive - Universidad Rey Juan Carlos/Documentos/Practicas_CAP/Practica2_1_openmp_mpi/Practica2_1_2/build/CMakeFiles/ZERO_CHECK.dir
