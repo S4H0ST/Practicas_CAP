@@ -7,9 +7,10 @@
   },
   "ExpandedNodes": [
     "",
+    "\\build",
     "\\out",
     "\\out\\build"
   ],
-  "SelectedNode": "\\cmake-build-debug",
+  "SelectedNode": "\\build\\ALL_BUILD.vcxproj",
   "PreviewInSolutionExplorer": false
 }
