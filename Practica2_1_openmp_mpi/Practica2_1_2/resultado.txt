@@ -1,4 +1,0 @@
-Practica 2.1.1	3	100	263.062218 seg
-Practica 2.1.1	3	12	28.590731 seg
-Practica 2.1.1	3	4	7.261230 seg
-Practica 2.1.1	3	2	2.523992 seg

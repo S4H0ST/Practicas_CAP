@@ -1,3 +1,0 @@
-C:/Users/sohai/OneDrive - Universidad Rey Juan Carlos/Documentos/Practicas_CAP/Practica1/cmake-build-debug/CMakeFiles/Practica1.dir
-C:/Users/sohai/OneDrive - Universidad Rey Juan Carlos/Documentos/Practicas_CAP/Practica1/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/sohai/OneDrive - Universidad Rey Juan Carlos/Documentos/Practicas_CAP/Practica1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
